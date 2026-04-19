@@ -1,0 +1,58 @@
+name: Sync Blog Posts
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.md"
+      - ".blog-syncignore"
+      - "scripts/sync-posts-to-blog.sh"
+      - ".github/workflows/sync-posts-to-blog.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-blog-posts
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Checkout blog repo
+        uses: actions/checkout@v4
+        with:
+          repository: diffw/diffw.github.io
+          ref: main
+          path: blog-repo
+          fetch-depth: 0
+          token: ${{ secrets.BLOG_REPO_TOKEN }}
+
+      - name: Sync root markdown files into content/posts
+        run: |
+          bash scripts/sync-posts-to-blog.sh \
+            "$GITHUB_WORKSPACE" \
+            "$GITHUB_WORKSPACE/blog-repo/content/posts" \
+            "$GITHUB_WORKSPACE/.blog-syncignore"
+
+      - name: Commit and push blog changes
+        working-directory: blog-repo
+        env:
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          if [[ -z "$(git status --porcelain -- content/posts)" ]]; then
+            echo "No post changes to sync."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/posts
+          git commit -m "Sync posts from diff-blog-source@${SOURCE_SHA::7}"
+          git push origin main
