@@ -5,22 +5,22 @@ summary: 一些会长期保留的外部链接，当前先用假数据占位。
 ---
 
 ## Builder
+- [Herman@Bearblog](https://herman.bearblog.dev/)
+- [Dan Cederholm@SimpleBits](https://simplebits.com/about/)
+- [Zeno Rocha@Resend](https://zenorocha.com) 
 
-- [Newsletter Placeholder](https://example.com/newsletter)
-- [Archive Placeholder](https://example.com/archive)
-- [RSS Placeholder](https://example.com/rss)
 
 ##  Designer
+- [Roman](https://pixelwrld.co/)
+- [Jenny Wen](https://jennywen.ca/)
 
-- [X / Twitter Placeholder](https://example.com/x)
-- [GitHub Placeholder](https://example.com/github)
-- [Email Placeholder](mailto:hello@example.com)
+## Artist
+- [Noma Bar](https://www.instagram.com/noma_bar)
+
+
+## Design Studios
+- [Smith Diction](https://smith-diction.com/)
+
 
 ## Friends
 - [Zhugao](https://zhugao.net/)
-
-## Inspiration
-
-- [Design Notes Placeholder](https://example.com/design)
-- [Indie Projects Placeholder](https://example.com/indie)
-- [Reading List Placeholder](https://example.com/reading)
