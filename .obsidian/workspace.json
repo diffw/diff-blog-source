@@ -15,13 +15,28 @@
               "state": {
                 "file": "AI时代再谈设计师 35 岁职业危机.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "AI时代再谈设计师 35 岁职业危机"
             }
+          },
+          {
+            "id": "64020b9d5a01be6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "关于开始做独立开发的一些想法.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "关于开始做独立开发的一些想法"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -180,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,11 +210,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0151f71c028e0d63",
+  "active": "64020b9d5a01be6d",
   "lastOpenFiles": [
-    "感恩 2025.md",
     "AI时代再谈设计师 35 岁职业危机.md",
-    "生病的感受.md",
-    "template.md"
+    "关于开始做独立开发的一些想法.md",
+    "template.md",
+    "感恩 2025.md",
+    "scripts/sync-posts-to-blog.sh",
+    "scripts",
+    "生病的感受.md"
   ]
 }
