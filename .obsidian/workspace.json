@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of 生病的感受"
             }
+          },
+          {
+            "id": "63062710663a623b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +190,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "874db1f04f244e4c",
+  "active": "0151f71c028e0d63",
   "lastOpenFiles": [
     "感恩 2025.md",
     "生病的感受.md",
