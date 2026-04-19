@@ -17,7 +17,7 @@ summary: 一些会长期保留的外部链接，当前先用假数据占位。
 - [Email Placeholder](mailto:hello@example.com)
 
 ## Friends
-
+- [Zhugao](https://zhugao.net/)
 
 ## Inspiration
 

@@ -15,7 +15,7 @@
               "state": {
                 "file": "pages/links.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "links"
@@ -197,14 +197,14 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "关于开始做独立开发的一些想法.md",
+    "AI时代再谈设计师 35 岁职业危机.md",
+    "pages/links.md",
     "pages/now.md",
     "pages/projects.md",
     "pages/about.md",
-    "pages/links.md",
-    "关于开始做独立开发的一些想法.md",
     "pages",
     "untitled folder",
-    "AI时代再谈设计师 35 岁职业危机.md",
     "template.md",
     "感恩 2025.md",
     "scripts/sync-posts-to-blog.sh",
