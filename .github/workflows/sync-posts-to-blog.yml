@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - "*.md"
+      - "pages/*.md"
       - ".blog-syncignore"
       - "scripts/sync-posts-to-blog.sh"
       - ".github/workflows/sync-posts-to-blog.yml"
@@ -41,18 +42,24 @@ jobs:
             "$GITHUB_WORKSPACE/blog-repo/content/posts" \
             "$GITHUB_WORKSPACE/.blog-syncignore"
 
+      - name: Sync pages into content root
+        run: |
+          bash scripts/sync-posts-to-blog.sh \
+            "$GITHUB_WORKSPACE/pages" \
+            "$GITHUB_WORKSPACE/blog-repo/content"
+
       - name: Commit and push blog changes
         working-directory: blog-repo
         env:
           SOURCE_SHA: ${{ github.sha }}
         run: |
-          if [[ -z "$(git status --porcelain -- content/posts)" ]]; then
-            echo "No post changes to sync."
+          if [[ -z "$(git status --porcelain -- content)" ]]; then
+            echo "No content changes to sync."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add content/posts
-          git commit -m "Sync posts from diff-blog-source@${SOURCE_SHA::7}"
+          git add content
+          git commit -m "Sync content from diff-blog-source@${SOURCE_SHA::7}"
           git push origin main
