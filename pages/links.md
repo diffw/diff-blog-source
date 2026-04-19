@@ -4,19 +4,22 @@ eyebrow: Links
 summary: 一些会长期保留的外部链接，当前先用假数据占位。
 ---
 
-## 写作与发布
+## Builder
 
 - [Newsletter Placeholder](https://example.com/newsletter)
 - [Archive Placeholder](https://example.com/archive)
 - [RSS Placeholder](https://example.com/rss)
 
-## 社交与联系
+##  Designer
 
 - [X / Twitter Placeholder](https://example.com/x)
 - [GitHub Placeholder](https://example.com/github)
 - [Email Placeholder](mailto:hello@example.com)
 
-## 喜欢的网站
+## Friends
+
+
+## Inspiration
 
 - [Design Notes Placeholder](https://example.com/design)
 - [Indie Projects Placeholder](https://example.com/indie)
