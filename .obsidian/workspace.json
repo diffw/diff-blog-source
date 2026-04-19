@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/about.md",
+                "file": "pages/now.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "now"
             }
           }
         ]
@@ -197,9 +197,9 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "pages/now.md",
     "pages/projects.md",
     "pages/about.md",
+    "pages/now.md",
     "pages/links.md",
     "关于开始做独立开发的一些想法.md",
     "pages",
