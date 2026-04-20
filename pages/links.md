@@ -13,7 +13,8 @@ summary: 一些会长期保留的外部链接，当前先用假数据占位。
 ##  Designer
 - [Roman](https://pixelwrld.co/)
 - [Jenny Wen](https://jennywen.ca/)
-
+- [Bao](https://www.baothiento.com/)
+ 
 ## Artist
 - [Noma Bar](https://www.instagram.com/noma_bar)
 
