@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/links.md",
+                "file": "template.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "links"
+              "title": "template"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "pages/about.md",
     "pages/links.md",
+    "pages/about.md",
     "关于开始做独立开发的一些想法.md",
     "AI时代再谈设计师 35 岁职业危机.md",
     "pages/now.md",
