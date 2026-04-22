@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "template.md",
+                "file": "关于开始做独立开发的一些想法.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "template"
+              "title": "关于开始做独立开发的一些想法"
             }
           }
         ]
@@ -197,16 +197,16 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "AI时代再谈设计师 35 岁职业危机.md",
+    "关于开始做独立开发的一些想法.md",
+    "感恩 2025.md",
+    "template.md",
     "pages/links.md",
     "pages/about.md",
-    "关于开始做独立开发的一些想法.md",
-    "AI时代再谈设计师 35 岁职业危机.md",
     "pages/now.md",
     "pages/projects.md",
     "pages",
     "untitled folder",
-    "template.md",
-    "感恩 2025.md",
     "scripts/sync-posts-to-blog.sh",
     "scripts",
     "生病的感受.md"
