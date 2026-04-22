@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.50271224975586,
-    "collapsed": true
+    "width": 207.50271224975586
   },
   "right": {
     "id": "0a1b7b58a4f7195a",
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a80b536f8526cd20",
+  "active": "874db1f04f244e4c",
   "lastOpenFiles": [
     "AI时代再谈设计师 35 岁职业危机.md",
     "关于开始做独立开发的一些想法.md",
