@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "pages/about.md",
+                "file": "自由.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "自由"
             }
           }
         ]
@@ -197,14 +197,15 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "AI时代再谈设计师中年职业危机（以及，出路）.md",
-    "关于开始做独立开发的一些想法.md",
     "中美生活之对比.md",
+    "自由.md",
+    "关于开始做独立开发的一些想法.md",
+    "AI时代再谈设计师中年职业危机（以及，出路）.md",
+    "pages/about.md",
     "template 1.md",
     "template.md",
     "感恩 2025.md",
     "pages/links.md",
-    "pages/about.md",
     "pages/now.md",
     "pages/projects.md",
     "pages",
