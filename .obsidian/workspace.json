@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI时代再谈设计师中年职业危机（以及，出路）.md",
-                "mode": "preview",
+                "file": "pages/about.md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "AI时代再谈设计师中年职业危机（以及，出路）"
+              "title": "about"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "关于开始做独立开发的一些想法.md",
     "AI时代再谈设计师中年职业危机（以及，出路）.md",
+    "关于开始做独立开发的一些想法.md",
     "中美生活之对比.md",
     "template 1.md",
     "template.md",
