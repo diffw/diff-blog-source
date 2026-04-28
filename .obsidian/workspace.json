@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "自由.md",
+                "file": "追悼词.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "自由"
+              "title": "追悼词"
             }
           }
         ]
@@ -197,8 +197,8 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "追悼词.md",
     "自由.md",
+    "追悼词.md",
     "关于开始做独立开发的一些想法.md",
     "中美生活之对比.md",
     "AI时代再谈设计师中年职业危机（以及，出路）.md",
