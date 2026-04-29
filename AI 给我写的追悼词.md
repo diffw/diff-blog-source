@@ -1,6 +1,6 @@
 ---
-title: 自由
-date: 2026-04-28T10:05:00-06:00
+title: AI 给我写的追悼词
+date: 2026-04-29T10:05:00-06:00
 draft: false
 tags:
   - AI
