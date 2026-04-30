@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "中美生活之对比.md",
+                "file": "北美买房经验分享.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "中美生活之对比"
+              "title": "北美买房经验分享"
             }
           }
         ]
@@ -197,10 +197,11 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "AI 给我写的追悼词.md",
     "自由.md",
-    "关于开始做独立开发的一些想法.md",
+    "北美买房经验分享.md",
     "中美生活之对比.md",
+    "AI 给我写的追悼词.md",
+    "关于开始做独立开发的一些想法.md",
     "AI时代再谈设计师中年职业危机（以及，出路）.md",
     "pages/about.md",
     "template 1.md",
