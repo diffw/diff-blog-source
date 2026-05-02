@@ -46,7 +46,7 @@ import random
 import re
 import sys
 import time
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Iterable
 
@@ -493,6 +493,7 @@ class Counts:
     deleted: int = 0
     skipped: int = 0
     failed: int = 0
+    failed_files: list = field(default_factory=list)
 
 
 def needs_translation(source_doc: ParsedDoc, en_path: Path) -> tuple[bool, str]:
@@ -580,6 +581,7 @@ def process_one(
     except Exception as exc:
         logger.error("FAILED  %s: %s", rel, exc)
         counts.failed += 1
+        counts.failed_files.append(rel)
         return
 
     en_title = (result.get("title") or "").strip()
@@ -595,6 +597,7 @@ def process_one(
             rel, en_title, slug, len(en_body),
         )
         counts.failed += 1
+        counts.failed_files.append(rel)
         return
 
     # Disambiguate against any existing *.en.md slugs so URLs don't collide.
@@ -750,6 +753,7 @@ def main(argv: list[str]) -> int:
             process_one(src, client, counts, args.dry_run, args.verbose)
         except Exception as exc:  # pragma: no cover - last-resort guard
             counts.failed += 1
+            counts.failed_files.append(str(src.name))
             logger.exception("UNEXPECTED FAILURE on %s: %s", src, exc)
 
     # Cleanup pass always runs.
@@ -760,7 +764,19 @@ def main(argv: list[str]) -> int:
         counts.translated, counts.cached, counts.deleted,
         counts.skipped, counts.failed, args.dry_run,
     )
-    return 0 if counts.failed == 0 else 1
+
+    failures_path = os.environ.get("TRANSLATE_FAILURES_FILE")
+    if failures_path and counts.failed_files:
+        try:
+            with open(failures_path, "w", encoding="utf-8") as fh:
+                for name in counts.failed_files:
+                    fh.write(name + "\n")
+        except OSError as exc:
+            logger.warning("could not write failures file %s: %s", failures_path, exc)
+
+    if counts.translated == 0 and counts.cached == 0 and counts.deleted == 0 and counts.failed > 0:
+        return 1
+    return 0
 
 
 if __name__ == "__main__":

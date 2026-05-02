@@ -71,10 +71,12 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.BLOG_TRANSLATOR }}
           CHANGED_FILES: ${{ steps.changed.outputs.files }}
+          TRANSLATE_FAILURES_FILE: ${{ runner.temp }}/translation-failures.txt
         run: |
           python scripts/translate.py --verbose --changed-only "$CHANGED_FILES"
 
       - name: Commit and push translations to source repo
+        if: always() && (success() || failure())
         run: |
           set -euo pipefail
           if [[ -z "$(git status --porcelain)" ]]; then
@@ -88,6 +90,7 @@ jobs:
           git push origin HEAD:main
 
       - name: Checkout blog repo
+        if: always() && (success() || failure())
         uses: actions/checkout@v4
         with:
           repository: diffw/diffw.github.io
@@ -97,6 +100,7 @@ jobs:
           token: ${{ secrets.BLOG_REPO_TOKEN }}
 
       - name: Sync root markdown files into content/posts
+        if: always() && (success() || failure())
         run: |
           bash scripts/sync-posts-to-blog.sh \
             "$GITHUB_WORKSPACE" \
@@ -104,12 +108,14 @@ jobs:
             "$GITHUB_WORKSPACE/.blog-syncignore"
 
       - name: Sync pages into content root
+        if: always() && (success() || failure())
         run: |
           bash scripts/sync-posts-to-blog.sh \
             "$GITHUB_WORKSPACE/pages" \
             "$GITHUB_WORKSPACE/blog-repo/content"
 
       - name: Commit and push blog changes
+        if: always() && (success() || failure())
         working-directory: blog-repo
         env:
           SOURCE_SHA: ${{ github.sha }}
@@ -124,3 +130,16 @@ jobs:
           git add content
           git commit -m "Sync content from diff-blog-source@${SOURCE_SHA::7}"
           git push origin main
+
+      - name: Surface translation failures
+        if: always()
+        env:
+          TRANSLATE_FAILURES_FILE: ${{ runner.temp }}/translation-failures.txt
+        run: |
+          if [[ -s "$TRANSLATE_FAILURES_FILE" ]]; then
+            echo "::error title=Translation failures::Some posts failed to translate; see file list below"
+            echo "Failed source files:"
+            cat "$TRANSLATE_FAILURES_FILE"
+            exit 1
+          fi
+          echo "All translations succeeded."
