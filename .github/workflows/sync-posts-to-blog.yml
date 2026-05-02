@@ -6,15 +6,14 @@ on:
       - main
     paths:
       - "*.md"
+      - "!*.en.md"
       - "pages/*.md"
+      - "!pages/*.en.md"
       - ".blog-syncignore"
       - "scripts/sync-posts-to-blog.sh"
       - "scripts/translate.py"
       - "scripts/requirements.txt"
       - ".github/workflows/sync-posts-to-blog.yml"
-    paths-ignore:
-      - "*.en.md"
-      - "pages/*.en.md"
   workflow_dispatch:
 
 permissions:
