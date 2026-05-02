@@ -3,6 +3,7 @@ title: "Code Sign error: Provisioning profile XXXX can't be found解决方法"
 date: 2011-11-21T08:29:39+00:00
 draft: false
 tags: [iOS]
+translationKey: how-to-resolve-code-sign-error-provisioning-profile
 ---
 最近通过Xcode在真机上测试App，因为新增了device，所以需要更新provision。删除旧的provision，下载新的provision，安装后，报错：
 Code Sign error: Provisioning profile XXXX can't be found

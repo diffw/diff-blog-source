@@ -3,6 +3,7 @@ title: "Design and Innovation at Apple"
 date: 2010-05-31T03:40:37+00:00
 draft: false
 tags: [apple, 设计]
+translationKey: design-and-innovation-at-apple
 ---
 **1.  Making your own decisions about what's good**
 Ive's team doesn't attend a lot of design conferences, even though they win lots of awards.  The two reasons offered for this is that they themselves are the highest standard they know of, and the team focuses on the judgment of team members, rather than external recognition. Ives also admits that they don't want to let others in on too much on their process, or they might be able to close the gap.

@@ -3,6 +3,7 @@ title: "为永恒去劳力、建造 Building For Eternity."
 date: 2021-05-07T00:18:05+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: building-for-eternity
 ---
 路加福音 14:28 和合本  
 你们哪一个要盖一座楼，不先坐下算计花费，能盖成不能呢？

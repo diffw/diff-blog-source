@@ -3,6 +3,7 @@ title: "专心省察，重新奉献 Look Again And Consecrate"
 date: 2021-01-25T23:01:11+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: focus-and-consecrate-anew
 ---
 Jan 26, 2021 at 6:09 AM
 

@@ -3,6 +3,7 @@ title: "事奉的决心 The Determination to Serve"
 date: 2021-02-23T00:47:48+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: the-determination-to-serve
 ---
 Feb 23, 2021 at 7:46 AM
 

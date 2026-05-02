@@ -3,6 +3,7 @@ title: "GTD学习中..."
 date: 2009-07-31T17:46:27+00:00
 draft: false
 tags: [设计师成长]
+translationKey: learning-gtd
 ---
 谢谢[cc](http://www.chencheng.org/blog/)的[分享](http://www.wangwangwang.org/i/?p=325)，再一次意识到时间管理的重要。
 时间管理是自我管理的根本，其实一直也在学习时间管理，但没有系统的学习，都是网络上零碎的了解。提到GTD,我用的最多的一个原则就是“一件事情值得去做，如果两分钟之内能完成，那么现在就完成它”。

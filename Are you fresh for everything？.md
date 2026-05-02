@@ -3,6 +3,7 @@ title: "Are you fresh for everything?"
 date: 2021-01-19T22:48:31+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: are-you-fresh-for-everything
 ---
 Jan 20, 2021 at 6:03 AM
 

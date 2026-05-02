@@ -5,6 +5,7 @@ draft: false
 tags:
   - 设计师
   - 职业
+translationKey: discussing-mid-career-crisis-for-designers-in-the-age-of-ai
 ---
 
 所谓职业危机，其实是一个表象。它本质上，是对两件事情感受到压力或者困惑：生存、个人的价值与意义。或许我比较幸运，在 36 岁的时候，因为参与的创业公司成功在纳斯达克上市，获得了让我在生存方面没有太多压力的回报。（但个人的价值与意义，却一直缠绕着我，不放过我）

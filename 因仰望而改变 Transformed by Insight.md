@@ -3,6 +3,7 @@ title: "因仰望而改变 Transformed by Insight"
 date: 2021-01-23T01:11:23+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: transformed-by-gazing
 ---
 Jan 23, 2021 at 6:32 AM
 

@@ -2,6 +2,7 @@
 title: 项目
 eyebrow: Projects
 summary: 这里先放一些示意性的项目卡片，后面再逐步替换成真实项目。
+translationKey: projects
 ---
 
 ## VibeLive

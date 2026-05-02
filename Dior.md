@@ -3,6 +3,7 @@ title: "Dior"
 date: 2011-05-12T09:40:40+00:00
 draft: false
 tags: [感想, 设计师成长]
+translationKey: dior
 ---
 ![](http://www.handhard.com/blog/wp-content/uploads/2010/12/62cc0776tw6dby9uj83xwj.png "62cc0776tw6dby9uj83xwj")
 看到这样一条微博，被震动了：

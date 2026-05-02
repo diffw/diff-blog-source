@@ -2,6 +2,7 @@
 title: 链接
 eyebrow: Links
 summary: 一些会长期保留的外部链接，当前先用假数据占位。
+translationKey: links
 ---
 
 ## Builder

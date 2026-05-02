@@ -3,6 +3,7 @@ title: "搬家Dallas"
 date: 2024-08-27T19:52:30+00:00
 draft: false
 tags: [北美漂流记, 基督信仰]
+translationKey: moving-to-dallas
 ---
 前天午间，半睡半醒之时，不知身在何处，是上海，还是LA，还是长沙？惊醒、定神之后，才知道自己躺在Dallas的家中。（这是我最害怕的梦境之一）
 

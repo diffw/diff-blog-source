@@ -3,6 +3,7 @@ title: "对抗「听道之后，仍旧空想」的动力 The Initiative Against 
 date: 2021-02-20T00:17:42+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: the-motivation-against-idle-listening
 ---
 Feb 20, 2021 at 6:27 AM
 

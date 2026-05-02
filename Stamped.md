@@ -3,6 +3,7 @@ title: "Stamped"
 date: 2011-11-30T04:17:41+00:00
 draft: false
 tags: [设计]
+translationKey: stamped
 ---
 [![](http://handhard.com/blog/wp-content/uploads/2011/11/Screen-shot-2011-11-30-at-%E4%B8%8B%E5%8D%8812.10.22.png "Screen shot 2011-11-30 at 下午12.10.22")](http://itunes.apple.com/us/app/stamped/id467924760?ls=1&mt=8)
 非常有意味的一段话：

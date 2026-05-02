@@ -3,6 +3,7 @@ title: "为神留出空间 Leave Room for God."
 date: 2021-01-24T23:33:44+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
+translationKey: leave-room-for-god
 ---
 Jan 25, 2021 at 6:21 AM
 
