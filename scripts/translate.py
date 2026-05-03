@@ -835,6 +835,12 @@ def process_one(
         counts.failed_files.append(rel)
         return
 
+    # Pages have stable, navigation-pointed URLs — force their slug to the
+    # filename stem so /en/about/, /en/now/, /en/projects/, /en/links/ stay
+    # accessible regardless of how the model titles them.
+    if source.parent.name == "pages":
+        slug = source.stem
+
     # Disambiguate against any existing *.en.md slugs so URLs don't collide.
     taken = existing_en_slugs(exclude=en_path)
     final_slug = disambiguate_slug(slug, taken)
