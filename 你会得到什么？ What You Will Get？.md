@@ -3,7 +3,7 @@ title: "你会得到什么？ What You Will Get?"
 date: 2021-04-28T05:41:15+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: what-will-you-receive
+translationKey: what-you-will-get
 ---
 你为自己图谋大事吗？不要图谋！我必使灾祸临到凡有血气的。但你无论往哪里去，我必使你以自己的命为掠物。这是耶和华说的。（耶利米书 45:5 和合本）
 

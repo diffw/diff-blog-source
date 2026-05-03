@@ -5,7 +5,7 @@ draft: false
 tags:
   - AI
   - Faith
-translationKey: a-eulogy-written-by-ai
+translationKey: ai-written-eulogy
 ---
 我让 AI 对我过去 20 年写下的 290 来篇、共计 20 多万字的 Blog 进行分析，让它来总结我的一生，给我写一篇追悼词。
 

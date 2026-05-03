@@ -3,7 +3,7 @@ title: "他必兴旺，我必衰微 Decreasing into His Purpose."
 date: 2021-03-24T12:23:03+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: he-must-increase-i-must-decrease
+translationKey: decrease-into-his-purpose
 ---
 他必兴旺，我必衰微。(约翰福音 3:30 和合本)
 

@@ -3,7 +3,7 @@ title: "德国工业设计大师Dieter Rams的十条优秀设计准则"
 date: 2010-06-15T03:46:49+00:00
 draft: false
 tags: [Dieter Rams, 设计, 设计师成长]
-translationKey: ten-principles-of-good-design-by-dieter-rams
+translationKey: dieter-rams-ten-principles-for-good-design
 ---
 1. 好设计是创新的 Good Design is innovative
 创新恒久远，山寨不流传

@@ -58,6 +58,7 @@ SCAN_DIRS = [REPO_ROOT, REPO_ROOT / "pages"]
 SYNCIGNORE_PATH = REPO_ROOT / ".blog-syncignore"
 
 OPENAI_MODEL = "gpt-4o"
+OPENAI_FALLBACK_MODEL = "gpt-4o-mini"  # used if OPENAI_MODEL fails on a file
 OPENAI_TIMEOUT_SECS = 60
 OPENAI_MAX_ATTEMPTS = 3
 
@@ -499,7 +500,8 @@ class TruncatedResponseError(RuntimeError):
 
 
 def _chat_with_retries(client, system_prompt: str, user_content: str,
-                       schema: dict, schema_name: str) -> str:
+                       schema: dict, schema_name: str,
+                       model: str = OPENAI_MODEL) -> str:
     """Run a chat completion with retries using Structured Outputs.
     Returns the message content string. Raises TruncatedResponseError
     if finish_reason == 'length'."""
@@ -518,7 +520,7 @@ def _chat_with_retries(client, system_prompt: str, user_content: str,
     for attempt in range(1, OPENAI_MAX_ATTEMPTS + 1):
         try:
             resp = client.chat.completions.create(
-                model=OPENAI_MODEL,
+                model=model,
                 response_format=response_format,
                 timeout=OPENAI_TIMEOUT_SECS,
                 messages=[
@@ -562,7 +564,8 @@ def _chat_with_retries(client, system_prompt: str, user_content: str,
     raise last_exc
 
 
-def call_openai(client, title: str, tags: list, body_text: str) -> dict:
+def call_openai(client, title: str, tags: list, body_text: str,
+                model: str = OPENAI_MODEL) -> dict:
     """Call OpenAI with retries; return parsed JSON dict.
 
     Raises TruncatedResponseError if the model's response was cut off."""
@@ -572,11 +575,13 @@ def call_openai(client, title: str, tags: list, body_text: str) -> dict:
         _build_user_message(title, tags, body_text),
         POST_SCHEMA,
         "post_translation",
+        model=model,
     )
     return json.loads(content)
 
 
-def call_openai_chunk(client, body_chunk: str) -> str:
+def call_openai_chunk(client, body_chunk: str,
+                      model: str = OPENAI_MODEL) -> str:
     """Translate a single body chunk. Returns translated Markdown text.
 
     Raises TruncatedResponseError if the chunk's response was cut off."""
@@ -589,6 +594,7 @@ def call_openai_chunk(client, body_chunk: str) -> str:
     )
     content = _chat_with_retries(
         client, CHUNK_SYSTEM_PROMPT, user_content, CHUNK_SCHEMA, "chunk_translation",
+        model=model,
     )
     data = json.loads(content)
     body = data.get("body")
@@ -766,39 +772,52 @@ def process_one(
 
     use_chunking = len(body_text) > CHUNK_BODY_THRESHOLD_CHARS
 
-    try:
+    def _translate(model: str) -> dict:
         if use_chunking:
             chunks = split_body_into_chunks(body_text, CHUNK_MAX_CHARS)
             total = len(chunks)
             if verbose:
                 logger.info(
-                    "CHUNKED %s (body=%d chars -> %d chunk(s))",
-                    rel, len(body_text), total,
+                    "CHUNKED %s (body=%d chars -> %d chunk(s)) [model=%s]",
+                    rel, len(body_text), total, model,
                 )
-            # Translate title/tags/slug ONCE with a stub body for context.
             stub_body = "(See chunked translation below.)"
-            meta = call_openai(client, title, raw_tags, stub_body)
+            meta = call_openai(client, title, raw_tags, stub_body, model=model)
             translated_chunks: list[str] = []
             for i, chunk in enumerate(chunks, start=1):
                 if verbose:
                     logger.info(
-                        "[CHUNK %d/%d] translating %d chars",
-                        i, total, len(chunk),
+                        "[CHUNK %d/%d] translating %d chars [model=%s]",
+                        i, total, len(chunk), model,
                     )
-                translated_chunks.append(call_openai_chunk(client, chunk))
-            result = {
+                translated_chunks.append(call_openai_chunk(client, chunk, model=model))
+            return {
                 "title": meta.get("title", ""),
                 "body": "\n\n".join(translated_chunks),
                 "tags": meta.get("tags", []),
                 "slug": meta.get("slug", ""),
             }
         else:
-            result = call_openai(client, title, raw_tags, body_text)
-    except Exception as exc:
-        logger.error("FAILED  %s: %s", rel, exc)
-        counts.failed += 1
-        counts.failed_files.append(rel)
-        return
+            return call_openai(client, title, raw_tags, body_text, model=model)
+
+    try:
+        result = _translate(OPENAI_MODEL)
+    except Exception as primary_exc:
+        logger.warning(
+            "FAIL    %s with %s (%s); retrying with %s",
+            rel, OPENAI_MODEL, primary_exc, OPENAI_FALLBACK_MODEL,
+        )
+        try:
+            result = _translate(OPENAI_FALLBACK_MODEL)
+            logger.info("RECOVER %s with %s", rel, OPENAI_FALLBACK_MODEL)
+        except Exception as fallback_exc:
+            logger.error(
+                "FAILED  %s: %s failed (%s); %s also failed (%s)",
+                rel, OPENAI_MODEL, primary_exc, OPENAI_FALLBACK_MODEL, fallback_exc,
+            )
+            counts.failed += 1
+            counts.failed_files.append(rel)
+            return
 
     en_title = (result.get("title") or "").strip()
     en_body = result.get("body") or ""

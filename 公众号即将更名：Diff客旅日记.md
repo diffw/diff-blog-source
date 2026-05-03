@@ -3,7 +3,7 @@ title: "公众号即将更名：Diff客旅日记"
 date: 2020-09-05T01:10:39+00:00
 draft: false
 tags: [基督信仰]
-translationKey: official-account-name-change-diff-pilgrims-diary
+translationKey: my-blogs-new-name-diffs-sojourners-diary
 ---
 昨天，应邀去「**喜马拉雅**」公司给 UED 团队做了一次设计分享，**主题是：中年退役设计师分享职业初心、选择、困惑。**这是第一次在公开场合，聊我对互联网「35 岁职业规划」这个残酷、焦虑、热门话题的一些思考。希望其中一些想法，能给到年轻设计师们一点启发与提醒。
 

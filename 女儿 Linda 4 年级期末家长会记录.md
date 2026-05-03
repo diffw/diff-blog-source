@@ -3,7 +3,7 @@ title: "女儿 Linda 4 年级期末家长会记录"
 date: 2020-08-19T16:11:04+00:00
 draft: false
 tags: [孩子教育]
-translationKey: notes-from-lindas-4th-grade-parent-teacher-conference
+translationKey: fourth-grade-parent-teacher-meeting
 ---
 昨天( 2020 年 7 月 3 日），和妻子一起参加了 Linda 四年级期末「一对一」的家长会，与老师 F 交流了近一小时。
 

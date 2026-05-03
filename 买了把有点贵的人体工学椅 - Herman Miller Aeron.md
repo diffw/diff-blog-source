@@ -3,7 +3,7 @@ title: "买了把有点贵的人体工学椅 - Herman Miller Aeron"
 date: 2020-07-04T12:21:51+00:00
 draft: false
 tags: [投资]
-translationKey: bought-a-rather-expensive-ergonomic-chair-herman-miller-aero
+translationKey: bought-expensive-ergonomic-chair-herman-miller-aeron
 ---
 ![](http://diff.im/blog/wp-content/uploads/2020/07/Screen-Shot-2020-07-03-at-2.39.42-PM-1024x1024.png)
 
