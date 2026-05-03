@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Auto-restore filesystem birthtime/mtime from each post's front matter
+# `date:` field after every `git pull`, so Obsidian's "Sort by Created
+# time" stays meaningful even after the translation bot pushes new
+# *.en.md files and rewrites *.md files to add translationKey.
+#
+# Installed via `git config core.hooksPath scripts/git-hooks`.
+
+cd "$(git rev-parse --show-toplevel)" || exit 0
+
+if command -v python3 >/dev/null 2>&1 && [ -f scripts/normalize_obsidian_dates.py ]; then
+  python3 scripts/normalize_obsidian_dates.py
+fi
