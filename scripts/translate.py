@@ -64,8 +64,27 @@ OPENAI_MAX_ATTEMPTS = 3
 # Chunking thresholds (characters). The gpt-4o output cap is 16,384 tokens;
 # for Chinese -> English translation the output token count tends to be
 # similar in magnitude to the input character count, so we stay conservative.
-CHUNK_BODY_THRESHOLD_CHARS = 8000  # bodies larger than this get chunked
-CHUNK_MAX_CHARS = 5000             # cap per chunk before emitting
+CHUNK_BODY_THRESHOLD_CHARS = 4000  # bodies larger than this get chunked
+CHUNK_MAX_CHARS = 3000             # cap per chunk before emitting
+
+POST_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "title": {"type": "string"},
+        "body": {"type": "string"},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "slug": {"type": "string"},
+    },
+    "required": ["title", "body", "tags", "slug"],
+    "additionalProperties": False,
+}
+
+CHUNK_SCHEMA = {
+    "type": "object",
+    "properties": {"body": {"type": "string"}},
+    "required": ["body"],
+    "additionalProperties": False,
+}
 
 # Front-matter key ordering for English outputs and source rewrites — keep
 # diffs stable.
@@ -314,17 +333,28 @@ class TruncatedResponseError(RuntimeError):
     """
 
 
-def _chat_with_retries(client, system_prompt: str, user_content: str) -> str:
-    """Run a chat completion with retries. Returns the message content
-    string. Raises TruncatedResponseError if finish_reason == 'length'."""
+def _chat_with_retries(client, system_prompt: str, user_content: str,
+                       schema: dict, schema_name: str) -> str:
+    """Run a chat completion with retries using Structured Outputs.
+    Returns the message content string. Raises TruncatedResponseError
+    if finish_reason == 'length'."""
     from openai import APIConnectionError, APIStatusError, APITimeoutError, RateLimitError
+
+    response_format = {
+        "type": "json_schema",
+        "json_schema": {
+            "name": schema_name,
+            "strict": True,
+            "schema": schema,
+        },
+    }
 
     last_exc: Exception | None = None
     for attempt in range(1, OPENAI_MAX_ATTEMPTS + 1):
         try:
             resp = client.chat.completions.create(
                 model=OPENAI_MODEL,
-                response_format={"type": "json_object"},
+                response_format=response_format,
                 timeout=OPENAI_TIMEOUT_SECS,
                 messages=[
                     {"role": "system", "content": system_prompt},
@@ -334,16 +364,15 @@ def _chat_with_retries(client, system_prompt: str, user_content: str) -> str:
             choice = resp.choices[0]
             finish = getattr(choice, "finish_reason", None)
             if finish == "length":
-                # Don't retry — a longer attempt won't fit either. Bubble up
-                # so the per-file handler marks the file as failed.
                 raise TruncatedResponseError(
                     "OpenAI response truncated (finish_reason='length'); "
                     "chunk too large for the model's output cap"
                 )
+            refusal = getattr(choice.message, "refusal", None)
+            if refusal:
+                raise RuntimeError(f"model refused: {refusal}")
             content = choice.message.content or ""
-            # Validate JSON parses before returning so retries can recover
-            # from transient malformed responses.
-            json.loads(content)
+            json.loads(content)  # belt-and-suspenders; strict mode should guarantee valid JSON
             return content
         except TruncatedResponseError:
             raise
@@ -376,6 +405,8 @@ def call_openai(client, title: str, tags: list, body_text: str) -> dict:
         client,
         SYSTEM_PROMPT,
         _build_user_message(title, tags, body_text),
+        POST_SCHEMA,
+        "post_translation",
     )
     return json.loads(content)
 
@@ -391,7 +422,9 @@ def call_openai_chunk(client, body_chunk: str) -> str:
         f"{body_chunk}\n"
         "<<<CHUNK_END>>>\n"
     )
-    content = _chat_with_retries(client, CHUNK_SYSTEM_PROMPT, user_content)
+    content = _chat_with_retries(
+        client, CHUNK_SYSTEM_PROMPT, user_content, CHUNK_SCHEMA, "chunk_translation",
+    )
     data = json.loads(content)
     body = data.get("body")
     if not isinstance(body, str) or not body.strip():
@@ -509,7 +542,7 @@ def needs_translation(source_doc: ParsedDoc, en_path: Path) -> tuple[bool, str]:
         return True, f"body hash changed ({en_hash} != {body_hash})"
     src_key = source_doc.front_matter.get("translationKey")
     en_key = en_doc.front_matter.get("translationKey")
-    if src_key and en_key and src_key != en_key:
+    if src_key is not None and en_key is not None and str(src_key) != str(en_key):
         return True, f"translationKey mismatch (src={src_key} en={en_key})"
     return False, "cached"
 
