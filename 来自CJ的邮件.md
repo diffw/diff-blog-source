@@ -3,6 +3,7 @@ title: "来自CJ的邮件"
 date: 2009-09-23T11:40:01+00:00
 draft: false
 tags: [亲子关系, 生命中的人]
+translationKey: an-email-from-cj
 ---
 发件人：""dc" "
 发送日期：2008-07-22 13:17:35
