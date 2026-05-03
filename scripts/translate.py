@@ -561,6 +561,24 @@ def process_one(
         return
 
     en_path = english_path_for(source)
+
+    # Drafts don't get translated. If a previous publish left an `.en.md`
+    # behind (i.e., the post was un-drafted then re-drafted), remove it so
+    # the en site stays in sync with the zh site's published surface.
+    if bool(doc.front_matter.get("draft", False)):
+        if en_path.exists():
+            if dry_run:
+                logger.info("WOULD DELETE %s (source is draft)", en_path.relative_to(REPO_ROOT))
+            else:
+                en_path.unlink()
+                logger.info("DELETED %s (source is draft)", en_path.relative_to(REPO_ROOT))
+            counts.deleted += 1
+        else:
+            counts.skipped += 1
+            if verbose:
+                logger.info("SKIP    %s (draft)", rel)
+        return
+
     needs, reason = needs_translation(doc, en_path)
     if not needs:
         counts.cached += 1
@@ -803,7 +821,7 @@ def main(argv: list[str]) -> int:
         try:
             with open(failures_path, "w", encoding="utf-8") as fh:
                 for name in counts.failed_files:
-                    fh.write(name + "\n")
+                    fh.write(f"{name}\n")
         except OSError as exc:
             logger.warning("could not write failures file %s: %s", failures_path, exc)
 
