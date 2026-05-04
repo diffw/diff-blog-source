@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X.com 发布队列 · Diff</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+                   "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    }
+    .tweet-card { transition: opacity 0.15s, transform 0.1s; }
+    .tweet-card.published { opacity: 0.4; }
+    .copy-btn:active, .open-btn:active, .publish-btn:active { transform: scale(0.95); }
+    .tab { padding: 0.5rem 1rem; font-size: 0.9rem; color: #6b7280;
+           border-bottom: 2px solid transparent; margin-bottom: -1px; cursor: pointer; }
+    .tab-active { color: #2563eb; border-bottom-color: #2563eb; font-weight: 500; }
+    .dark .tab { color: #9ca3af; }
+    .dark .tab-active { color: #60a5fa; border-bottom-color: #60a5fa; }
+    pre.thread-rest-item { white-space: pre-wrap; word-break: break-word;
+                           font-family: inherit; font-size: 0.875rem; margin: 0; }
+  </style>
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 min-h-screen">
+  <div class="max-w-7xl mx-auto p-6">
+    <header class="flex items-center justify-between mb-6">
+      <h1 class="text-2xl font-semibold">📡 X.com 发布队列</h1>
+      <div class="flex items-center gap-3 text-sm">
+        <span id="stats" class="text-gray-500"></span>
+        <button onclick="toggleDark()"
+                class="text-base px-2 py-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700">🌓</button>
+      </div>
+    </header>
+
+    <nav class="flex gap-1 mb-6 border-b border-gray-200 dark:border-gray-700">
+      <button class="tab tab-active" data-tab="today">📅 今天</button>
+      <button class="tab" data-tab="week">📆 本周</button>
+      <button class="tab" data-tab="month">🗓 本月</button>
+      <button class="tab" data-tab="all">📚 全部</button>
+      <button class="tab" data-tab="unsent">📤 未发</button>
+    </nav>
+
+    <div id="empty-state" class="hidden text-center text-gray-400 py-16">
+      此区间没有内容。试试切换到「全部」。
+    </div>
+
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <section>
+        <h2 class="text-lg font-medium mb-3">🇨🇳 中文 <span id="cn-count" class="text-sm text-gray-500"></span></h2>
+        <div id="cn-list" class="space-y-3"></div>
+      </section>
+      <section>
+        <h2 class="text-lg font-medium mb-3">🇺🇸 English <span id="en-count" class="text-sm text-gray-500"></span></h2>
+        <div id="en-list" class="space-y-3"></div>
+      </section>
+    </div>
+
+    <footer class="mt-10 text-xs text-gray-400 text-center">
+      Routine 自动写入 <code>tweets.js</code> · 已发状态存于 localStorage · 刷新页面读取最新数据
+    </footer>
+  </div>
+
+  <template id="tweet-template">
+    <article class="tweet-card bg-white dark:bg-gray-800 rounded-lg p-4 shadow-sm
+                    border border-gray-200 dark:border-gray-700">
+      <div class="flex items-center justify-between mb-2 text-xs text-gray-500">
+        <span class="schedule-time"></span>
+        <span class="pillar"></span>
+      </div>
+      <pre class="content whitespace-pre-wrap break-words text-sm leading-relaxed mb-2
+                  font-sans"></pre>
+      <details class="thread-details hidden mt-2">
+        <summary class="text-xs text-blue-600 dark:text-blue-400 cursor-pointer
+                        hover:underline">查看完整 thread →</summary>
+        <div class="thread-rest mt-2 space-y-2"></div>
+      </details>
+      <div class="flex items-center justify-between mt-3 pt-3 border-t
+                  border-gray-100 dark:border-gray-700">
+        <div class="text-xs text-gray-400 char-count"></div>
+        <div class="flex gap-2">
+          <button class="copy-btn px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700 rounded
+                         hover:bg-gray-200 dark:hover:bg-gray-600">📋 Copy</button>
+          <button class="open-btn px-3 py-1 text-xs bg-blue-500 text-white rounded
+                         hover:bg-blue-600">🚀 Open in X</button>
+          <button class="publish-btn px-3 py-1 text-xs bg-gray-100 dark:bg-gray-700
+                         rounded hover:bg-gray-200 dark:hover:bg-gray-600">✓ Mark sent</button>
+        </div>
+      </div>
+      <div class="source-info hidden mt-2 text-xs text-gray-400"></div>
+    </article>
+  </template>
+
+  <script src="tweets.js"></script>
+  <script>
+    let tweets = (window.TWEETS_DATA && window.TWEETS_DATA.tweets) || [];
+    let currentTab = 'today';
+
+    function isPublished(id) {
+      return localStorage.getItem('pub:' + id) === '1';
+    }
+    function setPublished(id, val) {
+      if (val) localStorage.setItem('pub:' + id, '1');
+      else localStorage.removeItem('pub:' + id);
+    }
+
+    function inRange(date, range) {
+      const now = new Date();
+      const d = new Date(date);
+      if (range === 'today') {
+        return d.toDateString() === now.toDateString();
+      } else if (range === 'week') {
+        const dow = now.getDay() || 7;
+        const monday = new Date(now);
+        monday.setHours(0, 0, 0, 0);
+        monday.setDate(now.getDate() - dow + 1);
+        const sundayEnd = new Date(monday);
+        sundayEnd.setDate(monday.getDate() + 7);
+        return d >= monday && d < sundayEnd;
+      } else if (range === 'month') {
+        return d.getMonth() === now.getMonth() && d.getFullYear() === now.getFullYear();
+      } else if (range === 'unsent') {
+        return true; // unsent filter applied separately
+      }
+      return true;
+    }
+
+    function fmtTime(iso) {
+      const d = new Date(iso);
+      const now = new Date();
+      const opts = { weekday: 'short', month: 'short', day: 'numeric',
+                     hour: '2-digit', minute: '2-digit', hour12: false };
+      const s = d.toLocaleString('en-US', opts);
+      if (d < now) return '⚠️ ' + s + ' (overdue)';
+      const diffMs = d - now;
+      const hrs = Math.round(diffMs / 3600000);
+      if (hrs < 24) return s + ` · in ${hrs}h`;
+      const days = Math.round(hrs / 24);
+      return s + ` · in ${days}d`;
+    }
+
+    function render() {
+      const cnList = document.getElementById('cn-list');
+      const enList = document.getElementById('en-list');
+      cnList.innerHTML = '';
+      enList.innerHTML = '';
+
+      let filtered = tweets.filter(t => inRange(t.scheduled_at, currentTab));
+      if (currentTab === 'unsent') {
+        filtered = tweets.filter(t => !isPublished(t.id));
+      }
+      filtered.sort((a, b) => new Date(a.scheduled_at) - new Date(b.scheduled_at));
+
+      let cnCount = 0, enCount = 0;
+      filtered.forEach(t => {
+        const card = renderCard(t);
+        if (t.lang === 'zh') { cnList.appendChild(card); cnCount++; }
+        else if (t.lang === 'en') { enList.appendChild(card); enCount++; }
+      });
+
+      document.getElementById('cn-count').textContent = `(${cnCount})`;
+      document.getElementById('en-count').textContent = `(${enCount})`;
+
+      const sentTotal = tweets.filter(t => isPublished(t.id)).length;
+      document.getElementById('stats').textContent =
+        `${tweets.length} 条 · ${sentTotal} 已发`;
+
+      document.getElementById('empty-state').classList.toggle(
+        'hidden', cnCount + enCount > 0
+      );
+    }
+
+    function renderCard(t) {
+      const tpl = document.getElementById('tweet-template');
+      const card = tpl.content.cloneNode(true).firstElementChild;
+
+      card.querySelector('.schedule-time').textContent = fmtTime(t.scheduled_at);
+      card.querySelector('.pillar').textContent =
+        (t.pillar || '') + (t.type === 'thread' ? ' · 🧵 ' + t.thread.length : '');
+
+      const firstText = t.type === 'thread' ? t.thread[0] : t.content;
+      card.querySelector('.content').textContent = firstText;
+      card.querySelector('.char-count').textContent = `${firstText.length} chars`;
+
+      if (t.type === 'thread' && t.thread.length > 1) {
+        const det = card.querySelector('.thread-details');
+        det.classList.remove('hidden');
+        const restEl = card.querySelector('.thread-rest');
+        t.thread.slice(1).forEach((tw, i) => {
+          const wrap = document.createElement('div');
+          wrap.className = 'p-2 bg-gray-50 dark:bg-gray-900 rounded';
+          const pre = document.createElement('pre');
+          pre.className = 'thread-rest-item mb-1';
+          pre.textContent = tw;
+          wrap.appendChild(pre);
+          const meta = document.createElement('div');
+          meta.className = 'flex items-center justify-between mt-1';
+          const cc = document.createElement('span');
+          cc.className = 'text-xs text-gray-400';
+          cc.textContent = `${tw.length} chars`;
+          meta.appendChild(cc);
+          const btn = document.createElement('button');
+          btn.className = 'text-xs px-2 py-0.5 bg-gray-200 dark:bg-gray-700 rounded';
+          btn.textContent = `📋 Copy ${i + 2}/${t.thread.length}`;
+          btn.onclick = () => copy(tw, btn);
+          meta.appendChild(btn);
+          wrap.appendChild(meta);
+          restEl.appendChild(wrap);
+        });
+      }
+
+      if (t.source_path) {
+        const si = card.querySelector('.source-info');
+        si.classList.remove('hidden');
+        si.textContent = '来源：' + t.source_path.replace(/^.*\/Documents\//, '');
+      }
+
+      const copyBtn = card.querySelector('.copy-btn');
+      copyBtn.onclick = () => copy(firstText, copyBtn);
+
+      const openBtn = card.querySelector('.open-btn');
+      openBtn.onclick = () => {
+        const url = 'https://x.com/intent/post?text=' + encodeURIComponent(firstText);
+        window.open(url, '_blank');
+      };
+
+      const pubBtn = card.querySelector('.publish-btn');
+      const updatePubUI = () => {
+        if (isPublished(t.id)) {
+          card.classList.add('published');
+          pubBtn.textContent = '↺ Undo';
+        } else {
+          card.classList.remove('published');
+          pubBtn.textContent = '✓ Mark sent';
+        }
+      };
+      updatePubUI();
+      pubBtn.onclick = () => {
+        setPublished(t.id, !isPublished(t.id));
+        updatePubUI();
+        const sentTotal = tweets.filter(x => isPublished(x.id)).length;
+        document.getElementById('stats').textContent =
+          `${tweets.length} 条 · ${sentTotal} 已发`;
+      };
+
+      return card;
+    }
+
+    function copy(text, btn) {
+      navigator.clipboard.writeText(text).then(() => {
+        const orig = btn.textContent;
+        btn.textContent = '✓ Copied';
+        setTimeout(() => { btn.textContent = orig; }, 1200);
+      }).catch(() => {
+        // Fallback for non-https/file://
+        const ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); } catch (e) {}
+        document.body.removeChild(ta);
+        const orig = btn.textContent;
+        btn.textContent = '✓ Copied';
+        setTimeout(() => { btn.textContent = orig; }, 1200);
+      });
+    }
+
+    document.querySelectorAll('.tab').forEach(b => {
+      b.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(x => x.classList.remove('tab-active'));
+        b.classList.add('tab-active');
+        currentTab = b.dataset.tab;
+        render();
+      });
+    });
+
+    function toggleDark() {
+      document.documentElement.classList.toggle('dark');
+      localStorage.setItem('dark',
+        document.documentElement.classList.contains('dark') ? '1' : '0');
+    }
+    if (localStorage.getItem('dark') === '1') {
+      document.documentElement.classList.add('dark');
+    }
+
+    if (!window.TWEETS_DATA) {
+      document.getElementById('cn-list').innerHTML =
+        '<div class="text-red-500 text-sm p-4 bg-red-50 rounded">' +
+        '没找到 tweets.js。请确认 Routine 已经生成内容。' +
+        '</div>';
+    } else {
+      render();
+    }
+  </script>
+</body>
+</html>
