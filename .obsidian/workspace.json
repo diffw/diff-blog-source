@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "北美买房经验分享.md",
+                "file": "我如何用 AI 辅助写作？.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "北美买房经验分享"
+              "title": "我如何用 AI 辅助写作？"
             }
           }
         ]
@@ -198,6 +198,10 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "北美买房经验分享.en.md",
+    "北美买房经验分享.md",
+    "我如何用 AI 辅助写作？.md",
+    "秋.en.md",
     "更新到 X.com/README.md",
     "更新到 X.com/routine/privacy-filter.md",
     "更新到 X.com/routine/tweet-format-rules.md",
@@ -205,14 +209,12 @@
     "更新到 X.com/routine/PROMPT.md",
     "更新到 X.com/source-index.json",
     "更新到 X.com/tweets.js",
-    "秋.en.md",
     "更新到 X.com/index.html",
     "更新到 X.com/threads",
     "更新到 X.com/routine/logs",
     "更新到 X.com/routine",
     "更新到 X.com",
     "自由.md",
-    "北美买房经验分享.md",
     "读《软弱之道 - 靠主得力的人生》.md",
     "读《软弱之道 - 靠主得力的人生》.en.md",
     "自由.en.md",
@@ -229,8 +231,6 @@
     "需要改变.en.md",
     "雅井.en.md",
     "随感 2020.07.18.en.md",
-    "随便说说.en.md",
-    "闲聊安全边际.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
