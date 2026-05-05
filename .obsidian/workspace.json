@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "人在痛哭时，不要那么快的去递纸巾.md",
+                "file": "人在痛哭时，不要那么快的去递纸巾.en.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "人在痛哭时，不要那么快的去递纸巾"
+              "title": "人在痛哭时，不要那么快的去递纸巾.en"
             }
           }
         ]
@@ -197,10 +197,11 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "人在痛哭时，不要那么快的去递纸巾.md",
     "我如何用 AI 辅助写作？.en.md",
+    "人在痛哭时，不要那么快的去递纸巾.en.md",
     "我如何用 AI 辅助写作？.md",
     "北美买房经验分享.md",
-    "人在痛哭时，不要那么快的去递纸巾.md",
     "template.md",
     "更新到 X.com/routine/logs",
     "更新到 X.com/routine",
@@ -229,7 +230,6 @@
     "一次被黑客敲诈的经历.en.md",
     "一位基督徒设计师 2013-2019 参与流利说创业的日记.en.md",
     "黑暗与异象.en.md",
-    "靠信心生活.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
