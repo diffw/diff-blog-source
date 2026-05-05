@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: decrease-into-his-purpose
 slug: decrease-into-his-purpose
 source_hash: a01efa171b135e37488d33956b51d527e5e80098f1a4ef6468e527b5392240e4
 ---

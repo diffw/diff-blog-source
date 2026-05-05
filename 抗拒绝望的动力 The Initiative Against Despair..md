@@ -3,7 +3,6 @@ title: "抗拒绝望的动力 The Initiative Against Despair."
 date: 2021-02-18T00:53:28+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: initiative-against-despair
 ---
 Feb 18, 2021 at 6:38 AM
 

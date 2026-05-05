@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: building-for-eternity
 slug: building-for-eternity
 source_hash: 772ef705441ed32c0244f12d118820bdc302761588473cc4032494176d6a87df
 ---

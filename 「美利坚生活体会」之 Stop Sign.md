@@ -3,7 +3,6 @@ title: "「美利坚生活体会」之 Stop Sign"
 date: 2024-07-17T00:17:39+00:00
 draft: false
 tags: [北美漂流记]
-translationKey: stop-signs-in-america
 ---
 有人问我，美国生活中印象最深刻的是什么？我首先会说：Stop Sign。
 

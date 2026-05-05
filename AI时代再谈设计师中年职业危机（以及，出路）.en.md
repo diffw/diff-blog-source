@@ -5,7 +5,6 @@ draft: false
 tags:
 - designer
 - career
-translationKey: ai-era-midlife-career-crisis-designers
 slug: ai-era-midlife-career-crisis-designers
 source_hash: 4298ee218b5b78c4721f0ccd18df730a77d96e482fedb59ffa81327a92c4bb4e
 ---

@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: transformed-by-beholding
 slug: transformed-by-beholding
 source_hash: 09f283234b56318a8f541400432cfe5d09a4bb0e9ac46ebb288decdb54b6c5b7
 ---

@@ -5,7 +5,6 @@ draft: false
 tags:
 - apple
 - design
-translationKey: design-principles-from-apple
 slug: design-principles-from-apple
 source_hash: 56509c4f906b9e8b25232d6c5a1a8807e54703fe9f1712466bbd2998d06f8fa7
 ---

@@ -4,7 +4,6 @@ date: 2011-06-08 04:50:08+00:00
 draft: false
 tags:
 - drawing
-translationKey: berry-and-cherry
 slug: berry-and-cherry
 source_hash: ce40573919fe616a7501d159a1cb26739d8901b05999c48c7a9f74a0c0b32a02
 ---

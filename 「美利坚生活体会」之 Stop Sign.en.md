@@ -4,7 +4,6 @@ date: 2024-07-17 00:17:39+00:00
 draft: false
 tags:
 - american-life
-translationKey: stop-signs-in-america
 slug: stop-signs-in-america
 source_hash: 57180b8199a07106744ea7de8f23198dc261c35ecce778a17232eec1100f50a2
 ---

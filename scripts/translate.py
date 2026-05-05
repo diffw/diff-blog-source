@@ -94,7 +94,6 @@ EN_FRONTMATTER_ORDER = [
     "date",
     "draft",
     "tags",
-    "translationKey",
     "slug",
     "source_hash",
 ]
@@ -711,10 +710,6 @@ def needs_translation(source_doc: ParsedDoc, en_path: Path) -> tuple[bool, str]:
     en_hash = en_doc.front_matter.get("source_hash")
     if en_hash != body_hash:
         return True, f"body hash changed ({en_hash} != {body_hash})"
-    src_key = source_doc.front_matter.get("translationKey")
-    en_key = en_doc.front_matter.get("translationKey")
-    if src_key is not None and en_key is not None and str(src_key) != str(en_key):
-        return True, f"translationKey mismatch (src={src_key} en={en_key})"
     return False, "cached"
 
 
@@ -857,7 +852,6 @@ def process_one(
         "date": doc.front_matter.get("date"),
         "draft": bool(doc.front_matter.get("draft", False)),
         "tags": en_tags,
-        "translationKey": slug,
         "slug": slug,
         "source_hash": body_hash,
     }
@@ -865,7 +859,7 @@ def process_one(
     # (e.g., eyebrow / summary on pages/) so the en file stays in sync.
     # Note: untranslated text values (like a Chinese summary) will appear
     # verbatim in the en frontmatter — visible bug, easy to spot/fix later.
-    handled = {"title", "date", "draft", "tags", "translationKey", "slug", "source_hash"}
+    handled = {"title", "date", "draft", "tags", "slug", "source_hash"}
     for src_key, src_val in doc.front_matter.items():
         if src_key not in handled and src_val is not None:
             en_fm[src_key] = src_val
@@ -879,12 +873,6 @@ def process_one(
         en_body_bytes = en_body_bytes + b"\n"
     write_doc(en_path, en_fm, en_body_bytes)
     logger.info("WROTE   %s", en_path.relative_to(REPO_ROOT))
-
-    # Add translationKey to the source if missing — surgical insert that
-    # preserves the rest of the front matter byte-for-byte (no re-serialize).
-    if not doc.front_matter.get("translationKey"):
-        if insert_translation_key_in_source(source, slug):
-            logger.info("UPDATED %s (added translationKey=%s)", rel, slug)
 
     counts.translated += 1
 

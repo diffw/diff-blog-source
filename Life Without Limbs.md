@@ -3,7 +3,6 @@ title: "Life Without Limbs"
 date: 2009-09-28T15:10:59+00:00
 draft: false
 tags: [基督信仰, 见证人]
-translationKey: life-without-limbs
 ---
 引用文字：
 看到一个短片《没有肢体的人生》，感人至深。在这里介绍给网友分享。

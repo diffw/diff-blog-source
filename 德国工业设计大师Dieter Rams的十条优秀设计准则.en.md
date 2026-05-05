@@ -6,7 +6,6 @@ tags:
 - dieter rams
 - design
 - designer-growth
-translationKey: dieter-rams-ten-principles-for-good-design
 slug: dieter-rams-ten-principles-for-good-design
 source_hash: cc8c3922b7cc4371c1f3be7f3f1376ae020f0054759fbe9e99c29ae2bb3665c7
 ---

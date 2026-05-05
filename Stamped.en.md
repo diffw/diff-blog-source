@@ -4,7 +4,6 @@ date: 2011-11-30 04:17:41+00:00
 draft: false
 tags:
 - design
-translationKey: stamped
 slug: stamped
 source_hash: 0c5f1741c6b7679884b5526d32ffa8b122712cfe4fb91138def55be5b2b924a9
 ---

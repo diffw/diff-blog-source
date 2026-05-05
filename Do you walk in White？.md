@@ -3,7 +3,6 @@ title: "Do you walk in White?"
 date: 2021-01-15T01:03:19+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: do-you-walk-in-white
 ---
 Jan 15, 2021 at 6:04 AM
 

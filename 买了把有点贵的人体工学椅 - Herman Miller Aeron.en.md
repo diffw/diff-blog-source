@@ -4,7 +4,6 @@ date: 2020-07-04 12:21:51+00:00
 draft: false
 tags:
 - investment
-translationKey: bought-expensive-ergonomic-chair-herman-miller-aeron
 slug: bought-expensive-ergonomic-chair-herman-miller-aeron
 source_hash: d4a092279811c75e8b89a924229d1a1f99900a4cb39a37d953d6621da2b77f66
 ---

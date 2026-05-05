@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: do-you-walk-in-white
 slug: do-you-walk-in-white
 source_hash: 40fb32668806caacce0481e44df35f031716d1b9b95efc9d7b38ebc10df1f298
 ---

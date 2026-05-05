@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: what-you-will-get
 slug: what-you-will-get
 source_hash: e8888cc61564dc96be772743ab24b0f1d22c2f4a4a3ef575a4ee2e62330ffcb8
 ---

@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: the-master-assizes
 slug: the-master-assizes
 source_hash: e78c5f39ca6a32655e7930a636ca3ce57784fb31ae81f32833edb88347b1b55d
 ---

@@ -3,7 +3,6 @@ title: "应对苦差事的动力 The Initiative Against Drudgery."
 date: 2021-02-18T23:42:26+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: power-to-tackle-drudgery
 ---
 Feb 19, 2021 at 6:49 AM
 

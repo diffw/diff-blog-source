@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - testimony
-translationKey: life-without-limbs
 slug: life-without-limbs
 source_hash: e0699cbfbdc996ab330b4e9dd962c5216d12860eee78e537f541903a172fd4a1
 ---

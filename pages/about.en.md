@@ -2,7 +2,6 @@
 title: About Diff
 draft: false
 tags: []
-translationKey: about
 slug: about
 source_hash: d7934832b8986e801fc278a16e575aaaa4a8e47f1d58a478bd78cc743659ba22
 ---

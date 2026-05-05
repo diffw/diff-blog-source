@@ -3,7 +3,6 @@ title: Stay Hungry Stay Foolish
 date: 2008-01-08 16:07:16+00:00
 draft: false
 tags: []
-translationKey: stay-hungry-stay-foolish
 slug: stay-hungry-stay-foolish
 source_hash: 749a926368a2b87932fa48c84e517873c364b75e81793d92952d5c54dd8358b0
 ---

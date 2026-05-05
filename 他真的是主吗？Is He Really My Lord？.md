@@ -3,7 +3,6 @@ title: "他真的是主吗？Is He Really My Lord?"
 date: 2021-03-05T11:00:08+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: is-he-really-my-lord
 ---
 Mar 5, 2021 at 6:56 AM
 

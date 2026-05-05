@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: the-determination-to-serve
 slug: the-determination-to-serve
 source_hash: 312efb2180a33e633a7fb40b6954ace2fcde7ec9ffe95fc487d26986297fc611
 ---

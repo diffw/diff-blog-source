@@ -3,7 +3,6 @@ title: "Berry&Cherry"
 date: 2011-06-08T04:50:08+00:00
 draft: false
 tags: [画画]
-translationKey: berry-and-cherry
 ---
 ![](http://www.handhard.com/blog/wp-content/uploads/2011/06/BC.png "B&C")
 樱桃和草莓的故事。

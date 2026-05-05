@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: is-he-really-my-lord
 slug: is-he-really-my-lord
 source_hash: 760707623a748d569723b6330cd8fcfb58c2ae3b17b5c4df2071af0d20d97659
 ---

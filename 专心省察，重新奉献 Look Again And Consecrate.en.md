@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: look-again-and-consecrate
 slug: look-again-and-consecrate
 source_hash: 6d1bcdd716e4b13c1bed1b2742c8c8bc7a8e0b8b8738d5d04fd8a7734064f59f
 ---

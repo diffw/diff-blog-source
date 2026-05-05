@@ -3,7 +3,6 @@ title: "你感到主耶稣的刺伤吗？Have You Felt The Hurt of The Lord?"
 date: 2021-03-02T15:05:10+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: have-you-felt-the-hurt-of-the-lord
 ---
 Mar 2, 2021 at 9:25 PM
 

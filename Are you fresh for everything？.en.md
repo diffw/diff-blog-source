@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: are-you-fresh-for-everything
 slug: are-you-fresh-for-everything
 source_hash: 0e7eb1cb7def1754ba187602dd323297012f926bc4323aa27197211c46f85a50
 ---

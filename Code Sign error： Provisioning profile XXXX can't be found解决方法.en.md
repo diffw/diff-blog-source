@@ -4,7 +4,6 @@ date: 2011-11-21 08:29:39+00:00
 draft: false
 tags:
 - ios
-translationKey: fix-code-sign-error-provisioning-profile-cant-be-found
 slug: fix-code-sign-error-provisioning-profile-cant-be-found
 source_hash: 2db7bcde5e698e3c814cf6f5784d8f4c63b771852b3ac49ca86e614f02a287ef
 ---

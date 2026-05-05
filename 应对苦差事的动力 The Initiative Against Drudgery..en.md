@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: power-to-tackle-drudgery
 slug: power-to-tackle-drudgery
 source_hash: c52ece32d5136fe52fa3df57d8fe81506bdf2cfd749b497e0a79450ade1e2bca
 ---

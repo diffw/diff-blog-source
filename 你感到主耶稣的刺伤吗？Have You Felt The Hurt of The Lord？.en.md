@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: have-you-felt-the-hurt-of-the-lord
 slug: have-you-felt-the-hurt-of-the-lord
 source_hash: ef86cfb0f0c2e8ebd2b0dcdcb1a1476b1a789b8350b15010fcfe5b4a7d293a0a
 ---

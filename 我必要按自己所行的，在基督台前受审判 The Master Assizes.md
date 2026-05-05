@@ -3,7 +3,6 @@ title: "我必要按自己所行的，在基督台前受审判 The Master Assize
 date: 2021-03-16T14:27:48+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: the-master-assizes
 ---
 因为我们众人必要在基督台前显露出来，叫各人按着本身所行的，或善或恶受报。（哥林多后书 5:10 和合本）
 

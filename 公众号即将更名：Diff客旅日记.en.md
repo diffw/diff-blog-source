@@ -4,7 +4,6 @@ date: 2020-09-05 01:10:39+00:00
 draft: false
 tags:
 - christian-faith
-translationKey: my-blogs-new-name-diffs-sojourners-diary
 slug: my-blogs-new-name-diffs-sojourners-diary
 source_hash: f5140fe35701bf135bb112d7578bcf78862c8e64c264ac8adb1a81626aa4db46
 ---

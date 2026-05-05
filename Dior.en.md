@@ -5,7 +5,6 @@ draft: false
 tags:
 - reflections
 - designer-growth
-translationKey: dior
 slug: dior
 source_hash: 80d01aceed02dbf8c270a9989f59f1ac0a95456fcd83efbd7d9f8726e8c1cc0c
 ---

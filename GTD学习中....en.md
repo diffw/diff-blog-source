@@ -4,7 +4,6 @@ date: 2009-07-31 17:46:27+00:00
 draft: false
 tags:
 - designer-growth
-translationKey: learning-gtd
 slug: learning-gtd
 source_hash: 44a3c2e41f856a937d30fd5bd4d1c619793c26d555c15a1a421565c1ab34999d
 ---

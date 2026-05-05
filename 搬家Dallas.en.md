@@ -5,7 +5,6 @@ draft: false
 tags:
 - north-american-stories
 - christian-faith
-translationKey: moving-to-dallas
 slug: moving-to-dallas
 source_hash: ec5b242bf64e0968edeed72ffcbbc362122c792fff3e6ea4df2dc7eecaa71297
 ---

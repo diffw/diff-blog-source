@@ -5,7 +5,6 @@ draft: false
 tags:
 - christian-faith
 - devotional-notes
-translationKey: initiative-against-despair
 slug: initiative-against-despair
 source_hash: cee428d521605580f3bb4c95d36dba952013d9d741a509988f9040940e958b0d
 ---

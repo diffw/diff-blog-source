@@ -3,7 +3,6 @@ title: "你的灵，疲惫不堪吗？Are you Exhausted Spiritually?"
 date: 2021-02-09T00:59:59+00:00
 draft: false
 tags: [基督信仰, 灵修笔记]
-translationKey: is-your-spirit-exhausted
 ---
 Feb 9, 2021 at 6:22 AM
 
