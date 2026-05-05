@@ -1,6 +1,0 @@
-{
-  "_comment": "Routine 用此文件追踪已处理的源文件 mtime，避免重复处理。每次运行时 Routine 自动更新。",
-  "version": 1,
-  "last_run": null,
-  "processed": {}
-}

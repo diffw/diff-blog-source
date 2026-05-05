@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "我如何用 AI 辅助写作？.md",
+                "file": "北美买房经验分享.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "我如何用 AI 辅助写作？"
+              "title": "北美买房经验分享"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a1b7b58a4f7195a",
@@ -199,8 +198,10 @@
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
     "北美买房经验分享.en.md",
-    "北美买房经验分享.md",
     "我如何用 AI 辅助写作？.md",
+    "AI 给我写的追悼词.en.md",
+    "AI 给我写的追悼词.md",
+    "北美买房经验分享.md",
     "秋.en.md",
     "更新到 X.com/README.md",
     "更新到 X.com/routine/privacy-filter.md",
@@ -229,8 +230,6 @@
     "靠主知足常乐.en.md",
     "青芝坞论坛.en.md",
     "需要改变.en.md",
-    "雅井.en.md",
-    "随感 2020.07.18.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
