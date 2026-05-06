@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "人在痛哭时，不要那么快的去递纸巾.en.md",
-                "mode": "source",
+                "file": "翻书笔记 - 《做对产品》.md",
+                "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "人在痛哭时，不要那么快的去递纸巾.en"
+              "title": "翻书笔记 - 《做对产品》"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.50271224975586
+    "width": 200
   },
   "right": {
     "id": "0a1b7b58a4f7195a",
@@ -197,10 +197,11 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "人在痛哭时，不要那么快的去递纸巾.md",
-    "我如何用 AI 辅助写作？.en.md",
+    "翻书笔记 - 《做对产品》人在痛哭时，不要那么快的去递纸巾.md",
     "人在痛哭时，不要那么快的去递纸巾.en.md",
+    "翻书笔记 - 《做对产品》.md",
     "我如何用 AI 辅助写作？.md",
+    "我如何用 AI 辅助写作？.en.md",
     "北美买房经验分享.md",
     "template.md",
     "更新到 X.com/routine/logs",
@@ -229,7 +230,6 @@
     "不要忧虑 Be anxious for nothing..en.md",
     "一次被黑客敲诈的经历.en.md",
     "一位基督徒设计师 2013-2019 参与流利说创业的日记.en.md",
-    "黑暗与异象.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
