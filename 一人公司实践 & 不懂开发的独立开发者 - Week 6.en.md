@@ -1,30 +1,32 @@
 ---
-title: One-Person Company Practice & The Non-Developer Indie Developer - Week 6
+title: One-Person Company Practice & The Non-Developer Indie Dev - Week 6
 date: 2026-05-08 10:05:00-06:00
 draft: false
 tags:
 - opc
-slug: one-person-company-practice-week-6
-source_hash: cd8cc81212749165e6f7cc97a69482ef2feb39c0803c00848420937ce47e6f7e
+slug: one-person-company-non-developer-indie-dev-week-6
+source_hash: 911465b0fc22288e0c8b127d1d35645ffc233d951286572298090c42aa3dcf9c
 ---
 
-**MRR Goal**: $1000.00  **This Week's Earnings**: $0
+**MRR Goal:** $1000.00  
+**This Week's Revenue:** $0
 
-### What I Accomplished This Week
-1. Finished the core functions for the first MVP version of my second app, but it's still not stable. A TestFlight beta version should be ready for release next week.
-2. Mostly kept up with daily updates on the WeChat public account, Xiaohongshu, and X.com. One WeChat article titled "How I Use AI for Writing" got over 2000 views and 130 shares.
-3. Demonstrated the second product to two friends.
+Things accomplished this week:  
+1. First MVP version of the second app completed, core features are mostly done, but it's still unstable. A TestFlight beta version should be ready next week.  
+2. Basically kept up with daily posts on WeChat public account, Xiaohongshu, and X.com. One WeChat article got over 2,000 reads and more than 130 shares: 'How I Use AI to Assist Writing'.  
+3. Demoed the second product to two friends.  
 4. Helped a friend move.
 
 ## Reflections
-1. My first confusion is about the tension between so-called ideals and actual user needs. I think every developer and designer has their original ideas or concepts. But for most users, they mostly want things faster, better, more convenient, cheaper, and more hassle-free. That's human nature. I'm curious: when Zhang Xiaolong talks about "restraint," how does he handle the pressure from users who want the opposite? When Jobs made Apple a closed ecosystem, how did he face pressure from more open platforms and more users? The question is: when do you stick to your so-called ideals, and when should you identify and adapt to real user needs?
 
-2. The second product has two crucial use cases in its field, and these are very closely linked. Due to industry technical limitations, I can only meet one of them right now. From a product design perspective, this is hard to accept because it can't complete the full experience loop. I saw this problem during design, but after showing the product to a friend, it became even more apparent. So, even though the second product isn't launched yet, there's a strong uncertainty about its future.
+1. First confusion: the tension between so-called principles and actual user needs. I think all developers and designers have their own original ideas, concepts, or pursuits. But for most users, they often just want things faster, better, more convenient, cheaper, and easier. That's human nature. I'm curious: when Zhang Xiaolong talks about "restraint," how does he maintain a sense of order and long-term consistency in the overall product experience while dealing with ever-growing user demands, commercial pressure, and feature expansion? And when Steve Jobs insisted on Apple's integrated ecosystem, how did he balance openness, freedom, and overall experience while enduring pressure from more open platforms and market competition over time? The confusion is: when should you stick to so-called principles, and when should you identify real user needs and make improvements accordingly?
 
-3. I'm planning to read "Mindset: The New Psychology of Success." I heard about it in an internal book club where a friend shared it: people approach tough problems differently depending on their mindset. Some get discouraged while others with a growth mindset get excited when faced with problems or challenges. Clearly, I'm the former now (or was in the past). I hope reading this book will change some of my thinking.
+2. The second product has two important use cases in this field, and the link between these two scenarios is very strong. But due to industry tech limitations, currently, only one can be satisfied. From a product design perspective, this is clearly unacceptable because it can't complete the whole experience loop. I realized this when designing. But after demoing the product to a friend, I found this issue became even more serious. So, even though the second product isn't live yet, there's a strong sense of uncertainty about its prospects.
 
-4. I think choosing to be an indie developer is right. I might succeed or fail, but having this time to step out of pure design and improve my overall skills is worth it. On one hand, there's a challenge in breaking out of my comfort zone; on the other, after the struggle, the reluctance, the grind, this way of working is starting to feel interesting.
+3. Planning to read the book "Mindset". I once heard a friend share about it at a book club: facing tough problems, different mindsets lead to different responses. Some deflate when problems arise, but those with a growth mindset get more excited when facing challenges or problems. Clearly, I'm currently (or have been) the former. I hope to change some of my thinking patterns by reading this book.
 
-5. About my WeChat public account. I've been writing it for ten years, and I've only got around 1500 followers. There are reasons for this. First, the content leans personal. Most articles record my personal feelings, without much value for others to share. Then, interaction with followers is weak. I rarely reply to comments, and when I do, it's brief, not building deeper interaction. Lastly, I lack an operational mindset. I haven't done any deliberate operations, like asking friends to share articles when suitable. These all need improvement.
+4. I feel choosing to be an independent developer is the right decision. Maybe I'll succeed, maybe I'll fail, but having time to step away from just design and improve myself as a whole is worth it. On one hand, it's challenging and pushes me out of my comfort zone. On the other hand, after the struggle, the torment, and reluctance, I've started to find this way of working interesting.
 
-6. I need to pray and commit. My wife suggested I pray over what I'm doing now, and I jokingly asked why I needed to pray. But now I realize it's very important. I'm too prone to pride when there's a bit of progress, too quick to take all the credit; when setbacks hit, I sink into worries and discouragement easily. For my own good, I need to commit this in prayer. I also hope to glorify the Most High through this process.
+5. About the WeChat public account: I've written it for ten years and only have about 1,500 followers. There's a reason for the low follower count. First, the content leans toward personal feelings. Most of my articles are about personal feelings with not much value for others to share. Secondly, there's weak interaction with followers. When someone leaves a comment, I rarely reply, or my replies are short, lacking deeper interaction. Lastly, there's a lack of operational awareness. I haven't deliberately done any operations, like asking friends to help share suitable articles. These need improvement.
+
+6. Need to pray and entrust things. My wife suggested I should pray for what I'm doing now. I jokingly asked her why I needed to pray. But now I see it's very important. Because for me, it's too easy to become proud when there's some progress, easy to credit myself. And when I meet setbacks, I can sink deeply into worry. For personal benefit, I need to entrust and pray. I also hope to glorify the Most High in this process.
