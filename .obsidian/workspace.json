@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "人在痛哭时，不要那么快的去递纸巾.md",
+                "file": "一人公司实践 & 不懂开发的独立开发者 - Week 6.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "人在痛哭时，不要那么快的去递纸巾"
+              "title": "一人公司实践 & 不懂开发的独立开发者 - Week 6"
             }
           }
         ]
@@ -197,12 +197,13 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "翻书笔记 - 《做对产品》.en.md",
-    "人在痛哭时，不要那么快的去递纸巾.md",
     "翻书笔记 - 《做对产品》.md",
-    "人在痛哭时，不要那么快的去递纸巾.en.md",
-    "我如何用 AI 辅助写作？.md",
+    "一人公司实践 & 不懂开发的独立开发者 - Week 6.md",
+    "翻书笔记 - 《做对产品》.en.md",
     "我如何用 AI 辅助写作？.en.md",
+    "我如何用 AI 辅助写作？.md",
+    "人在痛哭时，不要那么快的去递纸巾.md",
+    "人在痛哭时，不要那么快的去递纸巾.en.md",
     "北美买房经验分享.md",
     "template.md",
     "更新到 X.com/routine/logs",
@@ -229,7 +230,6 @@
     "对抗「听道之后，仍旧空想」的动力 The Initiative Against Dreaming..en.md",
     "世无易事.en.md",
     "不要忧虑 Be anxious for nothing..en.md",
-    "一次被黑客敲诈的经历.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
