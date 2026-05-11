@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "翻书笔记 - 《做对产品》.en.md",
+                "file": "AI时代，需要培养孩子什么样的能力？.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "翻书笔记 - 《做对产品》.en"
+              "title": "AI时代，需要培养孩子什么样的能力？"
             }
           }
         ]
@@ -197,10 +197,11 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
-    "一人公司实践 & 不懂开发的独立开发者 - Week 6.md",
-    "一人公司实践 & 不懂开发的独立开发者 - Week 6.en.md",
-    "翻书笔记 - 《做对产品》.md",
     "翻书笔记 - 《做对产品》.en.md",
+    "翻书笔记 - 《做对产品》.md",
+    "AI时代，需要培养孩子什么样的能力？.md",
+    "一人公司实践 & 不懂开发的独立开发者 - Week 6.en.md",
+    "一人公司实践 & 不懂开发的独立开发者 - Week 6.md",
     "我如何用 AI 辅助写作？.en.md",
     "我如何用 AI 辅助写作？.md",
     "人在痛哭时，不要那么快的去递纸巾.md",
@@ -229,7 +230,6 @@
     "自由.en.md",
     "求神省察.en.md",
     "对抗「听道之后，仍旧空想」的动力 The Initiative Against Dreaming..en.md",
-    "世无易事.en.md",
     "scripts/git-hooks/post-merge",
     "scripts/git-hooks",
     "scripts/normalize_obsidian_dates.py"
