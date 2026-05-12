@@ -1,6 +1,6 @@
 ---
 title: What Skills Should Kids Develop in the AI Era?
-date: 2026-05-12 10:05:00-06:00
+date: 2026-05-11 10:05:00-06:00
 draft: false
 tags:
 - ai
