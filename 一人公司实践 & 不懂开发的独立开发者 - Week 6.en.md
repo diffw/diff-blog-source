@@ -1,5 +1,5 @@
 ---
-title: One-Person Company Practice & The Non-Developer Indie Developer - Week 6
+title: One-Person Company Practice & The Indie Developer Who Can't Code - Week 6
 date: 2026-05-08 10:05:00-06:00
 draft: false
 tags:
