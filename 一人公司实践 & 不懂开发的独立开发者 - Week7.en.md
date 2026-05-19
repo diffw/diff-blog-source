@@ -1,6 +1,6 @@
 ---
 title: Week 7 of Solo Company Practice & The Indie Developer Who Can't Code
-date: 2026-05-11 10:05:00-06:00
+date: 2026-05-18 10:05:00-06:00
 draft: false
 tags:
 - opc
