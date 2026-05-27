@@ -3,9 +3,9 @@ title: Projects
 draft: false
 tags: []
 slug: projects
-source_hash: 696e6cd890f1feb1aefc67c3d3fcac33842d1b8bf0fab9a88e2b24599b2f4ce4
+source_hash: d703ec405531e5e0a12e0c052c8c19947ab21a4a386cd91daa72ad4058a073df
 eyebrow: Projects
-summary: Independent products I am building and maintaining.
+summary: 我正在做和维护的独立产品。
 ---
 
 {{< project_list >}}
