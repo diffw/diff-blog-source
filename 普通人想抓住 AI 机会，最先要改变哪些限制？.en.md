@@ -1,86 +1,125 @@
 ---
-title: What Ordinary People Must Change to Seize AI Opportunities
+title: What Ordinary People Must Change First to Seize AI Opportunities
 date: 2026-05-27 10:05:00-06:00
 draft: false
 tags:
 - ai
 - growth
-slug: what-ordinary-people-must-change-to-seize-ai-opportunities
-source_hash: a90087bedbcffcc559357f420c10316d32897bdbe4fcfdc7bfae78e76dd6b4a6
+slug: seizing-ai-opportunities-for-everyone
+source_hash: bd91d32d27ea2f95c710154867c18b10d990d96202035f1ce01b91f81d8598e9
 ---
 
-Many people say AI is the best opportunity for ordinary people to turn their lives around in this era. I totally agree, I wholeheartedly support this idea.
+A lot of people say AI is the best chance for ordinary people to turn their lives around in this era. I totally agree, raising both hands in support.
 
-I started working in the internet industry in 2005, right when the internet was transitioning from Web 1.0 to Web 2.0 (how many people still know what Web 2.0 even means?). In 2009, I shifted to the mobile internet sector.
+I started working in the internet industry in 2005. That was when the internet was just transitioning from Web 1.0 to Web 2.0 (how many people still know what Web 2.0 is?). In 2009, I shifted to the mobile internet field.
 
-Coming from a rural background, I've truly benefited from the opportunities and dividends brought by the mobile internet, and I've gained some from it.
+As someone from a rural background, I definitely enjoyed the opportunities and benefits brought by mobile internet, and I had some gains too.
 
-Based on my past industry experience and intuition, the technological and industry changes brought by AI, as well as the opportunities it offers to ordinary people, are unmatched by anything I've encountered before.
+From my industry experience and intuition, the technological and industrial transformations brought by AI, as well as the opportunities it offers to ordinary people, are unmatched by any stage I've experienced before.
 
-So learning to harness AI’s potential isn't just about increasing anxiety or promoting competition—it's genuinely important advice.
+So, grasping AI opportunities, learning how to use and harness AI, isn't an anxiety-inducing or hustle culture statement but a very sincere suggestion.
 
-AI is a powerful tool, but its value and impact differ in the hands of different people. Through my own collaboration with AI, I've noticed certain aspects that can limit its potential.
+AI is a powerful tool, but the value and effect it brings can vary greatly depending on who's using it. In my collaboration with AI, I found the following aspects limit its performance.
 
-### Your Personality Shapes AI’s Personality
+### Your personality is AI's personality
 
-This is a vital limiting factor.
+This is a very important limiting factor.
 
-I’m actually quite cautious and conservative. In the pre-AI era, I had a lot of ideas during actual projects, but when it came time to execute, I'd hesitate, doubt, and worry. I'd think: Can this really work? Is that feasible? Will anyone even use this? During execution, many constraints would surface.
+I'm actually a cautious, conservative person. In the non-AI era, in actual projects, I had many ideas, but when it came to realization, a lot of doubts and hesitations would pop up in my mind. I always wondered: Can this be done? Is that feasible? Will anybody really use this? During execution, there were always many entanglements.
 
-When using AI, those same mental constraints could unknowingly limit how I utilized AI’s capabilities. Often, it's not that AI can't do it—it's me, as the ideas person and decision-maker, restricting AI.
+When I use AI, those mental restrictions unconsciously limit my use of AI's abilities. So many times, it's not that AI can't do it, but that I'm the one limiting AI's performance as the idea generator and decision-maker.
 
-Realizing this, I consciously started changing these tendencies in my personality and thinking. I pushed myself to be more daring, more willing to try. Just do it and don't restrict yourself too much initially. When it comes to idea exploration and gathering basic feedback, AI’s low trial-and-error cost is a significant advantage—it just wastes some tokens and a tiny bit of time (hardly any time, really).
+After realizing this problem, I started consciously changing these issues in my personality and thinking. I intentionally made myself a bit more breakthrough-prone, more willing to try. Do whatever comes to mind, don't set too many limits for yourself first. The cost of trial and error with AI in idea exploration and getting the most basic feedback is really low, at most wasting some tokens and a bit of time (really not much time at all).
 
-### Are You Willing to Invest in AI Tools?
+### Are you willing to spend money investing in AI tools?
 
-I've been running a one-person company for about 8 weeks, and I'm not yet generating any income. But I subscribe to both Codex and Claude Code right now, each costing $100 a month, so I’m spending about $200 on AI tools monthly—excluding other tool investments.
+I've been running a solo company for about eight weeks, and currently, I have basically no income. But I am now subscribed to Codex and Claude Code, each costing $100 a month, so I spend about $200 a month on AI tools, not counting investments in other tools.
 
-Seems like a lot, right?
+Looks like a lot of money, right?
 
-But if you've been part of any internet startup or worked at an internet company, you'll know the monthly cost to hire employees with capabilities akin to Codex or Claude Code.
+But if you've ever been part of any internet startup, or worked at an internet company, you'd know how much it would cost per month to hire employees with capabilities like Codex and Claude Code.
 
-With that perspective, $200 a month feels very affordable.
+Just thinking about it that way, $200 a month is absolutely very cheap.
 
-Although I haven't earned money through AI yet, I believe it's only a matter of time, because I'm already in line with industry trends. As the saying goes, if you're in the right place at the right time, even a pig can fly.
+Although I haven't made any money through AI yet, I believe it's just a matter of time because I've already positioned myself in this industry's trend. It's like the industry saying, as long as you're standing in the breeze, even a pig can fly.
 
-So if you want to achieve something in AI, be bold and invest in AI tools with a long-term outlook. Consider it an investment.
+So, if you want to achieve something in the AI field and accomplish some things, you need to be bold, invest in AI tools with a long-term perspective, and see it as an investment.
 
-### Your Skill Limits Are AI’s Limits
+### Your ability boundary is AI's ability boundary
 
-AI seems nearly omnipotent, but that's not entirely true. Even though you don't need to write code or create designs by hand, your skills still set AI’s boundaries.
+AI is almost omnipotent, but not really. Even though you don't need to write any code or do any design by hand, in fact, your ability boundary is AI's ability boundary.
 
-These skills aren't limited to professional skills—they include your overall capabilities, knowledge, and understanding.
+This ability doesn't necessarily mean just professional ability; it also includes your comprehensive abilities, or rather your vision and knowledge base.
 
-I've been in internet design for over 20 years, but I know my design skills have certain hard limits. For instance, my designs never reach the level of refinement and precision I hope for. Likewise, understanding user needs is also a significant lack.
+Even though I've been in the design side of the internet industry for over 20 years, I know I have hard deficiencies in certain areas of design. For instance, my design can never reach the level of detail and refinement I expect. Also, my grasp of user needs is actually lacking a lot.
 
-These hard limits from the pre-AI era still impose significant constraints when I use AI. It seems AI amplifies my capabilities, improving areas with hard limits more than before. But comparing my results to those achieved by more skilled designers using AI, the difference is still significant.
+These hard deficiencies left over from the non-AI era still form big limitations when I use AI. AI seems to amplify my abilities, making me perform better in those areas with deficiencies than before; but if you compare my results with those produced by more capable designers using AI, I'll still show a big gap.
 
-Fortunately, in the AI era, you can use AI to learn quickly and broaden your knowledge. Continuous collaboration with AI helps bridge gaps and improve lacking skills. But first, you need a willingness to learn, then, you need to design a method or tool for fast learning with AI.
+Fortunately, in the AI era, you can learn quickly with AI, broaden your vision and knowledge. By constantly collaborating with AI, you can also quickly make up for and improve your lacking abilities. But the prerequisite is that you have a learning mentality, and secondly, that you know how to design a method or toolset to learn quickly using AI.
 
-### Are You Willing to Keep Up with Industry News?
+### Are you willing to keep up with the latest industry information?
 
-In the AI era, accessing the latest information is very low-cost. The simplest way is to subscribe to major companies’ blogs and keep up with leading people in the field.
+In the AI era, the cost of obtaining the latest firsthand information is very low. The simplest way is to subscribe to the official blogs of leading companies and follow the information of the most cutting-edge practitioners in this industry and field.
 
-Previously, industry news and related papers required high reading and understanding thresholds for ordinary people, not to mention implementing them.
+In the past, the barriers to reading and understanding these industry insights and related papers were very high for ordinary people, let alone putting them into practice.
 
-But with AI, you can quickly comprehend and learn. It can help you understand complex information and knowledge from a beginner’s perspective.
+But in the AI era, you can completely understand and learn quickly through AI. It helps you understand those profound information and related knowledge from a "novice" perspective very clearly.
 
-Don’t just understand information—ask another question: How can I apply this to my work? Likewise, AI can quickly absorb and implement these leading-edge insights and methods into your current projects.
+If you don't know where to start, I would suggest entering from two points: a company and a person. The content released by companies usually lets you see changes in models, products, APIs, Agents, open-source, computing power, and application cases; while the value of industry figures lies in translating many changes into judgments, methods, reminders, and practical experience.
 
-In this era, the best information and resources are readily available. The only thing limiting you, and AI, is whether you're willing.
+For company information sources, I look at these 10 first:
 
-### Are You Willing to Create Things?
+1. [OpenAI News](https://openai.com/news/): See ChatGPT, Codex, API, models, safety, and product application.
+2. [Anthropic News](https://www.anthropic.com/news): See Claude, Claude Code, Agent, safety research, and enterprise applications.
+3. [Google DeepMind Blog](https://deepmind.google/blog/): See Gemini, AI for Science, multi-modal, and cutting-edge research.
+4. [Meta AI Blog](https://ai.meta.com/blog/): See Llama, open-source models, multi-modal, and large-scale AI applications.
+5. [Microsoft AI](https://news.microsoft.com/source/topics/ai/): See Copilot, enterprise AI, AI workflows, and organizational practice cases.
+6. [NVIDIA AI Blog](https://blogs.nvidia.com/blog/category/deep-learning/): See computing power, GPU, AI infrastructure, robotics, and physical AI.
+7. [Hugging Face Blog](https://huggingface.co/blog): See open-source models, datasets, toolchains, and developer community.
+8. [Mistral AI News](https://mistral.ai/news/): See European frontier models, open-source/open weight models, and enterprise deployment.
+9. [xAI News](https://x.ai/news): See Grok, real-time information, Agents, and product updates.
+10. [Perplexity Hub](https://www.perplexity.ai/hub): See AI search, research functions, information acquisition methods, and product changes.
 
-For ordinary people and those outside the AI industry (like product managers, designers, developers, testers, etc.), you need to change this mindset:
+Industry figures I prioritize following:
 
-Don’t just stop at simple dialogues with AI or using it as a quick search engine. You can create things yourself to solve real-life problems.
+1. Sam Altman (OpenAI CEO): [Personal Blog](https://blog.samaltman.com/) / [X](https://x.com/sama). Follow to see OpenAI's product direction, AI infrastructure, and his views on the AGI economy.
 
-Looking at your life, what are those repetitive tasks? What about needs not currently met by existing tools? Are your needs niche or unique, with no existing solutions?
+2. Dario Amodei (Anthropic CEO and co-founder): [Personal Site](https://darioamodei.com/) / [X](https://x.com/DarioAmodei). Watch for Claude, safety, interpretability, and his thoughts on AI risks and societal impact.
 
-In these cases, you should create your own solution.
+3. Demis Hassabis (Google DeepMind CEO and co-founder): [Google DeepMind](https://deepmind.google/about/) / [X](https://x.com/demishassabis). Look into Gemini, AI for Science, and how foundational research enters the real world.
 
-Let's say, when you start creating a tool for yourself, you already have more AI-era competitiveness than over 90% of people in your field.
+4. Jensen Huang (NVIDIA Founder, President, and CEO): [NVIDIA Official Page](https://investor.nvidia.com/governance/management-team/default.aspx) / [LinkedIn](https://www.linkedin.com/in/jenhsunhuang). Follow developments in computing power, chips, AI factories, robotics, and industrial infrastructure.
 
-Once, NVIDIA's CEO Jensen Huang was asked: Is AI taking away jobs? He replied: AI isn’t taking away jobs; in the future, people who use AI will take jobs from those who don’t.
+5. Mira Murati (Thinking Machines Lab Founder, CEO, former OpenAI CTO): [Thinking Machines Lab](https://thinkingmachines.ai/news/) / [X](https://x.com/miramurati). Observe next-gen AI products, human-AI interaction, and the direction of the new AI Lab.
 
-Although I’ve discussed five key points, honestly, it all comes down to people. A person's awareness, thinking, qualities, and vision influence whether an individual can seize opportunities in the AI era, and whether they can continue to upgrade their skills. So for ordinary people, the most crucial point for seizing opportunities in the AI era is whether you're willing to change and update yourself.
+6. Andrej Karpathy (AI researcher, educator): [Personal Site](https://karpathy.ai/) / [Bear Blog](https://karpathy.bearblog.dev/) / [X](https://x.com/karpathy) / [GitHub](https://github.com/karpathy) / [YouTube](https://www.youtube.com/c/AndrejKarpathy). Learn how he explains LLM, Agent, and AI programming clearly.
+
+7. Andrew Ng (DeepLearning.AI Founder, Managing Partner of AI Fund): [Personal Site](https://www.andrewng.org/) / [X](https://twitter.com/AndrewYNg) / [LinkedIn](https://www.linkedin.com/in/andrewyng/) / [DeepLearning.AI](https://www.deeplearning.ai/). Focus on AI education, learning paths for ordinary people, and practical implementation methods.
+
+8. Ethan Mollick (Wharton School Professor, researcher of AI, innovation, and organizations): [One Useful Thing](https://www.oneusefulthing.org/) / [X](https://x.com/emollick) / [Bluesky](https://bsky.app/profile/emollick.bsky.social) / [Wharton Profile](https://mgmt.wharton.upenn.edu/profile/emollick/). Explore how AI integrates into work, education, organizations, and everyday life.
+
+9. Simon Willison (Independent open-source developer, Datasette creator): [Personal Blog](https://simonwillison.net/) / [LLMs Tag](https://simonwillison.net/tags/llms/) / [Mastodon](https://fedi.simonwillison.net/@simon) / [Bluesky](https://bsky.app/profile/simonwillison.net) / [X](https://twitter.com/simonw). Consider model evaluation, tool use, Agent, security issues, and developer practices.
+
+10. Aravind Srinivas (Perplexity co-founder, CEO): [X](https://x.com/AravSrinivas) / [LinkedIn](https://www.linkedin.com/in/aravind-srinivas-16051987) / [Perplexity Hub](https://www.perplexity.ai/hub). Investigate AI search, answer engines, and next-gen information retrieval.
+
+Of course, I'm not saying everyone needs to scan through all this info every day. A more practical approach is to bookmark these resources, then set aside fixed time each week to let AI summarize recent changes for you. Ask it how these changes relate to your work, projects, and life.
+
+Don't just stay at the information-gathering stage. Also, ask yourself one more question: How can I apply this in my current work? Similarly, AI can quickly absorb these cutting-edge insights and methods. It'll do the heavy lifting for you and implement the content in your current projects.
+
+In this era, the best information and resources are at your fingertips. The only thing limiting you and AI is your willingness.
+
+### Are you willing to create things?
+
+For ordinary people, or those in non-AI sectors (like product managers, designers, developers, testers, etc.), it's crucial to correct a mindset:
+
+In the AI era, don't just stick to simple chats with AI (don't just use AI as a quick search engine). You can absolutely create something yourself to solve real-life problems.
+
+When you observe your life, what are the tasks you spend time on repeatedly? Or, what current tools fail to meet your needs? Or maybe your needs are unique and no tools yet address your issues?
+
+Great, that’s when you can make something for yourself.
+
+You could say, when you start to make a tool for yourself, you're already more competitive in the AI era than over 90% of your industry.
+
+Previously, NVIDIA's Huang (Jensen Huang) was asked: Is AI taking away people's jobs? He replied: AI won't take away human jobs. In the future, those who can use AI will take the jobs from those who can't.
+
+Although I've discussed five aspects, at the end of the day, it's still about people. A person's awareness, thinking, quality, and vision will affect their ability to seize opportunities in the AI era, and whether their skills continue to grow. So, for ordinary people, the most crucial thing in capturing the great opportunities of the AI era is whether you're willing to change and update yourself.
