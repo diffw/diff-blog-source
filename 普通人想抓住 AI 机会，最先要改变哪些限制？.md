@@ -1,5 +1,5 @@
 ---
-title: OPC实践 & 不懂开发的独立开发者 - Week8
+title: 普通人想抓住 AI 机会，最先要改变哪些限制？
 date: 2026-05-27T10:05:00-06:00
 draft: false
 tags:
