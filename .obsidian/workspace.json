@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "朋友圈和公众号，要不要把父母屏蔽？.md",
+                "file": "AI 编程不到一年，工具切了3轮。行业变革很残酷，但很好玩。.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "朋友圈和公众号，要不要把父母屏蔽？"
+              "title": "AI 编程不到一年，工具切了3轮。行业变革很残酷，但很好玩。"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "0a1b7b58a4f7195a",
@@ -198,9 +197,10 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "朋友圈和公众号，要不要把父母屏蔽？.md",
+    "AI 编程不到一年，工具切了3轮。行业变革很残酷，但很好玩。.md",
     "朋友圈和公众号，要不要把父母屏蔽？.en.md",
     "普通人想抓住 AI 机会，最先要改变哪些限制？.md",
-    "朋友圈和公众号，要不要把父母屏蔽？.md",
     "普通人想抓住 AI 机会，最先要改变哪些限制？.en.md",
     "OPC实践 & 不懂开发的独立开发者 - Week8.en.md",
     "OPC实践 & 不懂开发的独立开发者 - Week8.md",
@@ -227,7 +227,6 @@
     "更新到 X.com/threads",
     "更新到 X.com",
     "北美买房经验分享.en.md",
-    "AI 给我写的追悼词.en.md",
     "更新到 X.com/source-index.json",
     "更新到 X.com/tweets.js",
     "更新到 X.com/index.html",
