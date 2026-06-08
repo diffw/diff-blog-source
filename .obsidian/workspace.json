@@ -197,6 +197,8 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "tests/test_translate_changed_only.py",
+    "tests",
     "孩子房间乱，父母到底该管什么？.md",
     "我如何与 AI 有效沟通 - \"AI 驾驭术\"入门分享.md",
     "移民美国后，英语为什么还是很差？.en.md",
@@ -222,7 +224,6 @@
     "AI时代，真正需要培养孩子什么样的能力？.md",
     "一人公司实践 & 不懂开发的独立开发者 - Week 6.en.md",
     "一人公司实践 & 不懂开发的独立开发者 - Week 6.md",
-    "AI时代，真正需要培养孩子什么样的能力？.en.md",
     "更新到 X.com/routine/logs",
     "更新到 X.com/routine",
     "更新到 X.com/threads",
@@ -231,7 +232,6 @@
     "更新到 X.com/tweets.js",
     "更新到 X.com/index.html",
     "scripts/git-hooks/post-merge",
-    "scripts/git-hooks",
-    "scripts/normalize_obsidian_dates.py"
+    "scripts/git-hooks"
   ]
 }

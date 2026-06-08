@@ -26,8 +26,9 @@ source `*.md` no longer exists.
 CLI:
   --dry-run               Plan only; no API calls and no writes.
   --changed-only "a,b,c"  Restrict the translation pass to these source files
-                          (paths relative to the repo root). Cleanup always
-                          runs.
+                          (paths relative to the repo root). Accepts newline
+                          output from CI and legacy comma-separated values.
+                          Cleanup always runs.
   --verbose               Log a decision for every file considered.
 
 Environment:
@@ -44,6 +45,7 @@ import logging
 import os
 import random
 import re
+import shlex
 import sys
 import time
 from dataclasses import dataclass, field
@@ -901,15 +903,40 @@ def cleanup_orphans(counts: Counts, dry_run: bool, verbose: bool) -> None:
 # CLI
 # --------------------------------------------------------------------------- #
 
+def unquote_changed_path(value: str) -> str:
+    s = value.strip()
+    if len(s) >= 2 and s[0] == s[-1] and s[0] in {'"', "'"}:
+        try:
+            parts = shlex.split(s)
+        except ValueError:
+            return s[1:-1]
+        if len(parts) == 1:
+            return parts[0]
+    return s
+
+
+def changed_path_exists(value: str) -> bool:
+    if not value:
+        return False
+    return (REPO_ROOT / value).resolve().exists()
+
+
 def parse_changed_only(value: str | None) -> list[Path] | None:
     if value is None:
         return None
     raw = value.strip()
     if not raw:
         return None
+
+    line_pieces = [unquote_changed_path(line) for line in raw.splitlines() if line.strip()]
+    if len(line_pieces) > 1:
+        return [(REPO_ROOT / piece).resolve() for piece in line_pieces]
+    if len(line_pieces) == 1 and changed_path_exists(line_pieces[0]):
+        return [(REPO_ROOT / line_pieces[0]).resolve()]
+
     paths: list[Path] = []
-    for piece in raw.replace("\n", ",").split(","):
-        s = piece.strip()
+    for piece in raw.split(","):
+        s = unquote_changed_path(piece)
         if not s:
             continue
         p = (REPO_ROOT / s).resolve()

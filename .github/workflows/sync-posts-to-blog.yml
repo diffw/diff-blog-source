@@ -57,18 +57,23 @@ jobs:
             exit 0
           fi
           # Only consider added/modified .md files at repo root or in pages/.
-          # Translation outputs (*.en.md) are excluded — the script ignores
-          # them anyway, but no need to scan.
-          # core.quotePath=false ensures non-ASCII filenames (Chinese post
-          # filenames) come through verbatim instead of as octal escapes
-          # like "\346\267\253\344\271\261.md".
-          FILES=$(git -c core.quotePath=false diff --name-only --diff-filter=AM "$BEFORE_SHA" "$AFTER_SHA" -- '*.md' 'pages/*.md' \
-            | grep -v '\.en\.md$' || true)
+          # Use NUL-delimited git output so names with quotes, spaces, commas,
+          # or Chinese punctuation are passed through as real filenames.
+          FILTERED=()
+          while IFS= read -r -d '' file; do
+            [[ "$file" == *.en.md ]] && continue
+            FILTERED+=("$file")
+          done < <(
+            git -c core.quotePath=false diff --name-only -z --diff-filter=AM \
+              "$BEFORE_SHA" "$AFTER_SHA" -- '*.md' 'pages/*.md'
+          )
           echo "Changed source files:"
-          echo "$FILES"
-          # Join with commas for the script.
-          JOINED=$(echo "$FILES" | paste -sd, -)
-          echo "files=$JOINED" >> "$GITHUB_OUTPUT"
+          printf '%s\n' "${FILTERED[@]}"
+          {
+            echo "files<<EOF"
+            printf '%s\n' "${FILTERED[@]}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Translate changed posts
         env:
