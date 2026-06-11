@@ -1,5 +1,5 @@
 ---
-title: Linda 实习计划
+title: 我为 16 岁的女儿定制的 2026 暑期实习计划
 date: 2026-06-10T20:36:53-05:00
 draft: false
 tags:
