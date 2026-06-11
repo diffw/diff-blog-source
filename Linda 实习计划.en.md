@@ -1,5 +1,5 @@
 ---
-title: Linda's Internship Plan
+title: The 2026 Summer Internship Plan I Made for My 16-Year-Old Daughter
 date: 2026-06-10 20:36:53-05:00
 draft: false
 tags:
