@@ -5,285 +5,286 @@ draft: false
 tags:
 - ai
 - parent-child-relationship
-- child-education
+- children-education
 slug: linda-internship-plan
-source_hash: 5fe7227365cbe2073825337a6b33ca97d92c4bd2a23e54375769fbc75badc58e
+source_hash: e836f9dc02da2a51710e41d6040c62c4c209418299e0ea7072811270e15ee1f1
 ---
 
-My 16-year-old daughter is now in tenth grade, and in two years she'll be off to college.
+My 16-year-old daughter is in tenth grade now, with two more years to go before college.
 
-Before the summer break, she was looking for jobs at fast food places/restaurants/retail stores to earn some pocket money and gain some social experience.
+Before the summer started, she was looking for part-time jobs at fast-food joints, restaurants, and retail stores to earn some pocket money and gain social experience.
 
-I think it's a great idea, and I'm proud of her. I said this kind of work experience is really valuable because it lets you learn communication and collaboration in a real work environment and create income with your own labor.
+I thought it was a great idea and felt proud of her. I said it’s valuable to have this kind of internship work because you can learn communication and cooperation in a real work environment, and earn income through your own efforts.
 
-Of course, that might be the limit of its value.
+Of course, the value of such internships might just be limited to that.
 
-Right now, we're in a boom phase with AI. **Compared to the value of interning in a physical store, I think spending a summer seriously, carefully, and deeply studying practical AI will have a more profound impact on her last two years of high school, future college studies, and career path.**
+Right now, we’re in the middle of an AI boom. **Compared to the value of a physical store internship, I think spending a summer seriously and thoroughly learning practical AI will have a more profound impact on the next two years of high school, future college studies, and career direction.**
 
-So I suggested to her that she could intern with me, and I'd pay her a salary. Of course, there'd be detailed assessment objectives. So, we made this summer internship plan.
+So I suggested to her that she could intern with me, and I’d pay her a salary. Of course, there would be detailed assessment goals. So we made this summer internship plan.
 
-For her, it's a challenging plan, pushing her out of her comfort zone in many areas. For me, there are also many challenges.
+For her, it’s a challenging plan, requiring her to step out of her comfort zone in many places. For me, it’s equally challenging.
 
-There's an economic cost. For instance, I need to get her a new MacBook Pro and pay her internship salary. Time-wise, since this basically means mentoring an intern, my work speed and efficiency will undoubtedly take a hit.
+There’ll be certain economic costs. For instance, I need to equip her with a new MacBook Pro and pay her intern salary. Time-wise, since this is essentially mentoring an intern, it will inevitably slow down my work speed and efficiency.
 
-But I think it's a great investment. In just two months, it could significantly influence her future development path.
+But I think it’s a great investment. A short two months could have a significant impact on her future development path.
 
-Here's the internship plan (for reference):
+Here’s the internship plan (maybe a reference):
 
 ---
 
-Time: June 8, 2026 - July 23, 2026, a total of 34 workdays.
+Time: June 8, 2026 - July 23, 2026, totaling 34 workdays.
 
-This is a family summer internship plan, not a formal company employment (in accordance with U.S. labor laws).
+This is a family summer internship plan, not a formal employment relationship (as per US labor law).
 
-**Goal of the internship: Use several real projects to let Linda practice using AI, advancing a product, expressing publicly, learning, and review.** Through these processes, she'll learn how to learn, face challenges, setbacks, failures, and of course, there'll be successes.
+**The purpose of the internship plan: Use several real projects to let Linda practice using AI, advancing a product, public speaking, learning, and summarizing.** In these processes, she’ll learn how to learn, face challenges, setbacks, failures, and of course, success.
 
-## Overall Objectives
+## Overall Goals
 
 The internship is divided into four parts:
 
-1. Work time and professional habits
-2. Study plan
+1. Work hours and professional habits
+2. Learning plan
 3. Public sharing plan
-4. Work outcomes
+4. Work results
 
 By the end of the project, I hope Linda completes at least these tasks:
 
-1. Read 5 books. Take study notes and share.
-2. Complete one daily log per workday.
-3. Record a 5-minute video based on the daily log and upload it online (Xiaohongshu, Douyin/Video Number) each workday.
-4. Complete one English course project.
-5. Complete one AI Coding product project.
+1. Read 5 books. Take study notes and share them.
+2. Complete a daily log every workday.
+3. Record and publish a 5-minute video based on the daily log on platforms like Xiaohongshu, Douyin/Video Account.
+4. Complete 1 English course project.
+5. Complete 1 AI Coding product project.
 
-## Working Hours
+## Work Hours
 
-The default project day time is 9:00-18:00, including a 1-hour lunch break and optional rest as needed. The key is not sitting the whole time but gradually adapting to a workday rhythm: setting goals before starting, synchronizing during, and reviewing at the end.
+The project days are set from 9:00 AM to 6:00 PM, with a 1-hour lunch break and necessary rests. The focus is not on sitting the entire time but gradually getting used to the rhythm of a workday: setting goals before starting, syncing during, and reviewing at the end.
 
-Daily rhythm:
+Daily Rhythm:
 
-1. 9:00 daily check-in: Confirm the day's goals.
-2. Short midday sync: Confirm morning progress and afternoon focus.
-3. 17:30 daily review: Present the day's output, record issues, and confirm the next day's plan.
+1. 9:00 daily check-in: confirm the day’s goals.
+2. Brief noon sync: confirm the morning’s progress and afternoon’s focus.
+3. 5:30 PM daily review: show the day’s output, record problems, confirm the next day’s plan.
 
-Rules for lateness, leave, and temporary adjustments:
+Rules for tardiness, leave, and temporary adjustments:
 
-1. Before 9:05 is considered on time.
-2. 9:05-9:15 is mild late, recorded once.
-3. Over 15 minutes is considered late.
-4. Apply for leave a day in advance and arrange makeup work with no deduction from the basic participation allowance.
-5. For sudden absence, explain the reason and write a clear makeup plan in the daily log.
+1. Within 9:05 is considered on time.
+2. 9:05-9:15 is slightly late, recorded once.
+3. More than 15 minutes is late.
+4. Request leave a day in advance and arrange make-up, no deduction from base participation allowance.
+5. Temporary absence on the day requires explanation and a clear make-up plan in the daily log.
 
-We can adjust task priorities based on project progress. But any new task must clarify which old task it replaces; can't keep adding tasks, making the plan an endless list.
+We can adjust task priorities based on project progress. However, any new tasks must clearly state which old task they replace and cannot keep adding until the list is endless.
 
-## "Salary" and Performance Rules
+## Project "Salary" and Performance Rules
 
-The target total "salary" for this project is $2000.
+The target total amount for this project’s "salary" is $2000.
 
-The final payment consists of three parts:
+The final payment is composed of three parts:
 
-| Part     | Amount | Share | Payment Basis           |
-| -------- | ------: | ---: | --------------------- |
-| Basic "salary" | $1400  | 70%  | Attendance, daily log, task, visible evidence |
-| Weekly performance | $400  | 20%  | Weekly review score    |
-| Final presentation | $200  | 10%  | Final demo, review, public presentation summary |
+| Part         | Amount | Percentage | Payment Basis                   |
+| ------------ | ------: | ---------: | ------------------------------- |
+| Base "salary" | $1400  | 70%       | Attendance, daily log, daily tasks, visible evidence |
+| Weekly Performance | $400  | 20%         | Weekly review score           |
+| Final Presentation | $200  | 10%         | Final demo, review, public presentation |
 
-### Basic "Salary"
+### Base "Salary"
 
-The basic "salary" is $1400, based on 34 project days.
+The base "salary" is $1400, calculated over 34 project days.
 
 Each day must meet:
 
-1. Attend daily check-in or explain adjustments in advance.
-2. Clear daily tasks.
-3. Visible evidence such as GitHub PR, screenshots, demo videos, reading notes, course documents, publishing links.
-4. Complete the daily log.
+1. Attend daily check-in on time or explain adjustments in advance.
+2. Clear tasks for the day.
+3. Visible evidence of the day’s work, such as GitHub PRs, screenshots, demo videos, reading notes, course documents, publication links.
+4. Complete daily log for the day.
 
-If absent without reason, no makeup, and no visible evidence on a given day, that day is not counted towards the basic "salary."
+If there’s an unjustified absence, no make-up, and no visible evidence for a day, that project day doesn’t count toward the base "salary."
 
-If it's just inefficiency, poor results, bugs, or external obstacles, it doesn't directly deduct the daily basic "salary" but is evaluated in weekly performance.
+If it’s just low efficiency, mediocre results, encountering bugs or external obstacles, it doesn’t directly deduct from the day’s base "salary" but is assessed in the weekly performance.
 
-This rule is crucial: Problems, bugs, failures, external obstacles are acceptable. **What's unacceptable is no explanation, no record, no remedy.**
+This rule is crucial: issues, bugs, failures, and external obstacles are acceptable. **What’s not acceptable is the lack of explanation, records, or remedies.**
 
 ### Weekly Performance
 
-Weekly performance total is $400, paid over 7 review periods:
+The total weekly performance is $400, paid over 7 review cycles:
 
-| Period   | Dates      | Amount |
-| -------- | ---------- | -----: |
-| Week 1   | 6/8-6/12   | $60     |
-| Week 2   | 6/15-6/19  | $60     |
-| Week 3   | 6/22-6/26  | $60     |
-| Week 4   | 6/29-7/3   | $60     |
-| Week 5   | 7/6-7/10   | $60     |
-| Week 6   | 7/13-7/17  | $60     |
-| Week 7   | 7/20-7/23  | $40     |
+| Cycle   | Dates      | Amount |
+| ------- | ---------- | ------: |
+| Week 1  | 6/8-6/12   | $60   |
+| Week 2  | 6/15-6/19  | $60   |
+| Week 3  | 6/22-6/26  | $60   |
+| Week 4  | 6/29-7/3   | $60   |
+| Week 5  | 7/6-7/10   | $60   |
+| Week 6  | 7/13-7/17  | $60   |
+| Week 7  | 7/20-7/23  | $40   |
 
-Every Friday, a 30-45 minute review will be held. Week 7 reviews on the project end date.
+There’s a 30-45 minute review every Friday. Week 7’s review is on project end day.
 
-Each week's score is on a 0-5 scale:
+Weekly scoring uses a 0-5 point system:
 
-| Score | Payment Ratio | Meaning            |
-| ----: | ------------: | ----------------- |
-|     5 | 100%          | Exceeds expectations with clear evidence |
-|     4 | 85%           | Meets standards, evidence is complete |
-|     3 | 70%           | Basic achievement, quality or evidence lacking |
-|     2 | 40%           | Significant gaps  |
-|     1 | 20%           | Did very little    |
-|     0 | 0%            | Did nothing or can't prove  |
+| Score  | Payment Ratio | Meaning               |
+| -----: | --------------: | -------------------- |
+|    5  | 100%          | Exceeded expectations, clear evidence  |
+|    4  |  85%          | Met expectations, complete evidence       |
+|    3  |  70%          | Basic completion, but underwhelming quality or evidence |
+|    2  |  40%          | Significant gaps  |
+|    1  |  20%          | Did minimal work    |
+|    0  |   0%          | Didn’t do or can’t prove   |
 
-Weekly scores check five things:
+Weekly scores look at five things:
 
-1. AI Coding product progress.
-2. English course project progress.
-3. Reading and learning uptake.
-4. Sustainability of building in public.
-5. Professional capability: planning, reviewing, handling issues.
+1. Progress in AI Coding product.
+2. Progress in English course project.
+3. Absorption of reading and learning.
+4. Continuity in building in public.
+5. Professional skills: planning, reviewing, handling issues.
 
-These five dimensions aren't about nitpicking but seeing if each week we're actually moving forward. Slow progress is okay, encountering issues is fine, but we need to see the process, evidence, and adjustments.
+These five dimensions aren’t for nitpicking but to see if the week genuinely moved forward. Slow progress and encountering problems are fine, but we need to see processes, evidence, and adjustments.
 
 ### Final Presentation
 
-The final presentation part, $200, is based on the end-of-project final presentation payment.
+The final presentation part is $200, paid based on the final presentation at project end:
 
-| Project              | Amount | Standard                                                  |
-| ------------------- | -----: | -------------------------------------------------------- |
-| AI Coding product demo |  $80  | Fully demonstrate the current version, explain main features and next steps. Listed on App Store, 100 users (no payment required). |
-| English course demo   |  $50  | Have a course outline, at least one sample lesson, user feedback, or sales attempt.         |
-| Internship review     |  $40  | Explain what was learned, what failed, how AI was used to advance the project.                |
-| Public presentation prep |  $30  | Organize video, articles, screenshots, GitHub or portfolio links.                             |
+| Project              | Amount | Standard                                             |
+| ------------------- | -----: | --------------------------------------------------- |
+| AI Coding Product demo | $80 USD | Can fully demonstrate current version, explain main features and next steps. Launch on App Store, 100 users (not required to pay). |
+| English Course demo     | $50 USD | Has course outline, at least one lesson sample, user feedback or sales attempts.           |
+| Internship Review       | $40 USD | Clearly explain what was learned, what failed, how to use AI to advance projects.          |
+| Public Presentation Collection | $30 USD | Organize videos, articles, screenshots, GitHub or portfolio links.                 |
 
-## Study Plan
+## Learning Plan
 
-Need to finish reading 5 books during the internship.
+Need to read 5 books during the internship.
 
 ### Value Investing
 
-Not everyone needs to or is suited for investing financially, but everyone should understand investment thinking. This book will get kids acquainted with the basics of economics, finance, and investment principles (though it may be quite boring to read). Judging what truly has value, distinguishing price from value, thus forming a judgment on value. Life is full of choices: what major to study, what job opportunities to take, who to live with, what lifestyle to choose, etc., etc. Behind these choices is judgment.
+Not everyone needs to or is suited to financial investment, but everyone should understand the mindset of investing. This book will of course make the child understand some basic principles of economics, finance, and investing (though reading it might be quite boring), discern truly valuable things, distinguish price from value, and form a sense of value judgment. A person's life involves many choices: what major to choose, what job opportunities to take, who to live with, what lifestyle to have, etc. Behind these choices, you need judgment.
 
-### A more beautiful Question 
-Chinese version "How to Ask a Good Question"
+### A More Beautiful Question
+Chinese version "How to Ask a Good Question."
 
-In student stages, kids seem to always be answering questions—answering teachers' questions, parents' questions.
+In the student phase, kids seem to always be answering questions, answering teachers' questions, parents' questions.
 
-They're always trained on "how to answer questions," but rarely get courses or opportunities to be trained on "how to ask a good question."
+They're consistently trained in "how to answer questions," but there's rarely a course or opportunity to be trained in "how to ask a good question."
 
-It's almost common knowledge: good answers come from good questions. In the AI era, information and knowledge have depreciated, becoming readily available. Human value, or the most important factor for human-AI collaboration, is how you ask a good question.
+It's almost common sense: good answers come from good questions. In the age of AI, information and knowledge have become devalued and readily accessible. The value of a person, or rather the most important aspect of human-AI cooperation, is how you ask a good question.
 
-### The 5 Elements of Effective Thinking 
-Chinese version "The 5 Elements of Effective Thinking"
+### The 5 Elements of Effective Thinking
+Chinese version "The 5 Elements of Effective Thinking."
 
-Similarly, how do you think effectively? How do you view mistakes? How do you apply knowledge? These are somewhat neglected by school education and may be overlooked by parents as well. This book aims to fill that gap for kids.
+Similarly, how to think effectively? How to view mistakes? How to apply knowledge? These are relatively overlooked by school education and may also be neglected by parents. This book is to fill that gap for kids.
 
-### Elon Musk Biography
-Chinese version "Elon Musk Biography" by CITIC Publishing
+### Elon Musk
+Chinese version "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future" by CITIC Press.
 
-At 16, ready to enter college and soon the real society. It's helpful for kids at this stage to learn about the person behind one of the world's most innovative companies, how he thinks, handles failures, and how his lifestyle and thought processes differ from the average person.
+At 16, about to enter college and the real world. Learn about the leader behind the world's most innovative companies, see how he thinks, how he faces failure, and how his lifestyle and thinking differ from others. This can be quite enlightening for kids at this stage.
 
-### Every Good Endeavor 
-Chinese version "The Meaning of Work—Living Out Faith in the Workplace"
+### Every Good Endeavor
+Chinese version "Every Good Endeavor: Connecting Your Work to God's Work."
 
-There's a societal trend: working for money while also wanting to escape work quickly. Work seems like a curse, but it wasn't meant to be that way. Work is inherently meaningful.
+The entire society has this atmosphere: on one side, working for money, on the other, wanting to escape work as soon as possible. Work seems to become a curse, but it wasn’t originally like this. Work itself is meaningful.
 
-Most people work from age 25 to 65, for 40 years. Spending over eight hours a day working, if work is only a curse, something you want to escape, that's a massive regret for a person, for a life.
+Ordinary people spend 40 years, from age 25 to 65, working over eight hours a day. If work is just a curse, something one wants to escape, that’s a huge regret for a person's life.
 
-At age 16, starting to engage with the society and accessing work opportunities, reading a book about work is very fitting.
+At 16, starting to engage with society, beginning to encounter job opportunities, reading a book about work is very suitable.
 
-For each book, produce:
+Each book requires output:
 
 1. 5-10 core notes.
 2. 3 ideas applicable to projects or life.
-3. 1 oral recap explaining the book's most important content.
-4. Share the above in a video;
+3. 1 oral recitation, explaining the most important content of the book.
+4. Above content, video share;
 
-Reading isn't just to finish 5 books or make a pretty reading log. The point is: can Linda explain it in her own words after finishing, can she apply one of its points to projects or life.
+Reading isn't to hit 5 books or write a fancy reading note. The focus is: after reading, can Linda articulate it in her own words, can she apply one of the viewpoints to projects or life.
 
-During weekly reviews, Linda needs to pick a point from a book, explain how it impacted this week's work.
+During weekly reviews, Linda needs to choose a viewpoint from a book, explaining how it influenced the week’s work.
 
 ## Public Sharing Plan
 
-Every workday, write a daily log and record a video of about 5 minutes based on the daily log, explaining what was learned, what was done today. Publish the video online (Xiaohongshu, Douyin/Video Channel).
+Every workday requires writing a daily log and recording a 5-minute video based on it, talking about what was learned or accomplished today. Videos are posted online (Xiaohongshu, Douyin/Video number).
 
-The daily log must include:
+Daily log must include:
 
-1. Today's plan: what was originally planned to do today.
-2. Today's output: what specifically was completed in apps, courses, reading, videos.
-3. A link: GitHub PR, video, document, screenshot, book notes, or course materials.
-4. A problem: where were difficulties today, how were they handled.
-5. Tomorrow's plan: what's the smallest next task for tomorrow.
+1. Today's Plan: What was originally planned for today.
+2. Today's Output: What was completed specifically in App, courses, reading, video.
+3. A link: GitHub PR, video, document, screenshot, reading notes, or course materials.
+4. A Problem: Where you were stuck today, how you handled it.
+5. Tomorrow’s Plan: What’s the smallest next task for tomorrow.
 
-**The focus of "build in public" isn't to appear perfect, but to consistently document real progress.** Being able to explain what was done today, where the difficulties were, and what the next step is—this in itself is very important.
+**The focus of "building in public" is not to appear perfect but to continuously record genuine progress**. Clearly articulating what was done today, where you were stuck, and what the next step is, is important in itself.
 
-(The video shouldn't expose family privacy, school privacy, account information, income details, API keys, or any personal sensitive information.)
+(Videos should not expose family privacy, school privacy, account information, income details, API keys, or any personal sensitive information)
 
-## Work Achievements
+## Work Outcomes
 
 ### English Course Project
 
-Goal: Complete 1 English course project and attempt real sales or user validation. The income target is 7000 RMB (achieving over 5000 gives Linda a 50% income commission), but income isn't a hard deduction standard.
+Goal: Complete 1 English course project and attempt real sales or user validation. The income target is 7,000 RMB (if above 5,000, Linda can take a 50% income commission), but income isn’t a rigid deduction standard.
 
-Hard achievements:
+Rigid outcomes:
 
-1. Course positioning: who is it for, what problem does it solve.
+1. Course positioning: Who it's for, what problem it solves.
 2. Course outline.
-3. Sample lesson: complete at least one demonstrable sample lesson.
-4. Sales materials: course introduction page, registration form, or promotional copy.
-5. User validation: collect at least 3 real pieces of feedback, or conduct a public sales attempt.
+3. Sample lesson: At least 1 demonstrable lesson.
+4. Sales materials: Course introduction page, signup form or promotion copy.
+5. User verification: Collect at least 3 real feedbacks, or attempt one public sale.
 
-If the final income doesn't reach 7000 RMB, it's not automatically deemed a failure. The focus is on whether the course product was completed, whether real market validation was conducted, whether feedback and next improvements were recorded.
+If it doesn’t achieve $7,000 RMB income eventually, it's not automatically a failure. The focus is on whether the course product was completed, whether real market validation was done, whether feedback and next improvements were recorded.
 
 ### AI Coding Product Project
 
-Goal: Complete 1 AI coding product project. Current direction is an iOS/iPad Teleprompter App (video teleprompter app).
+Goal: Complete 1 AI Coding product project. Current direction is a Teleprompter App for iOS / iPad.
 
-Core achievements (tentative):
+Core outcomes (tentative):
 
-1. Can type or paste scripts.
-2. Can display prompt text in large fonts.
+1. Can input or paste scripts.
+2. Can display prompt text in large font.
 3. Can auto-scroll.
 4. Can adjust scroll speed and font size.
-5. Can pause, continue, reset.
+5. Can pause, resume, reset.
 6. Can display in full screen.
 7. Can mirror display.
 8. Can countdown.
 9. Can save scripts.
-10. Support iPhone and iPad.
-11. Support Chinese, English, and 4-5 additional languages.
-12. Advance to TestFlight or App Store submission stage as far as possible.
+10. Supports iPhone and iPad.
+11. Supports Chinese, English, and 4-5 additional languages.
+12. Progress as much as possible to TestFlight or App Store submission stage.
 
-This section's focus isn't for Linda to hard-code everything alone, but to learn how to gradually use AI to make a product. Every time clearly state: what needs to be done, how to determine it's finished, how to verify, where it failed, how to improve next.
+The focus here isn't on Linda writing code solely, but learning to use AI to build a product bit by bit. Each time, clarify: what to do, how to judge completion, how to verify, where it failed, how to change next.
 
-## Daily Check Standards
+## Daily Acceptance Standards
 
-By the end of each day, at least submit:
+At the end of each day, need to submit:
 
 1. A daily log.
-2. A link to visible evidence or screenshot.
-3. A 5-minute public sharing video.
+2. A link or screenshot as visible evidence.
+3. A public sharing video around 5 minutes.
 4. The most important learning point of the day.
-5. Tomorrow's smallest next task.
+5. Tomorrow’s smallest next task.
 
-Work without evidence doesn't count as complete. Not because evidence is more important than effort, but because without evidence, it's hard to know what actually happened and hard to review.
+Work without evidence isn't counted as complete. Not because evidence is more important than effort, but without evidence, it’s hard to know what exactly happened, and it’s hard to review.
 
 ## Weekly Review Template
 
-During weekly reviews, fill out:
+Fill out during weekly review:
+
 
 1. What was completed this week.
 2. Which acceptance criteria were met.
 3. Which tasks failed and why.
-4. What was the biggest problem.
+4. What was the biggest issue.
 5. The 3 most important things for next week.
 6. Linda's self-assessment score and one reflection.
 7. Parents' score and one piece of feedback.
 
 ## Final Presentation
 
-At the end of the project, do a formal presentation:
+At the end of the project, there will be a formal presentation:
 
 1. 10 minutes: Present the AI Coding product.
 2. 5 minutes: Present the English course project.
 3. 5 minutes: Present the Build in public record.
-4. 5 minutes: Talk about the impact of 5 books on yourself.
-5. 10 minutes: Review how to use AI, what failed, how to solve it.
+4. 5 minutes: Talk about the impact of 5 books.
+5. 10 minutes: Review how AI was used, what failed, and how it was resolved.
 
-**The final presentation is not just about the results, but whether Linda can clearly explain: what the goals are, how the process progressed, what problems were encountered, how the results were verified, and what the next steps will be.**
+**The final presentation isn’t just about results. It's about whether Linda can clearly explain: what the goal was, how the process was advanced, what problems were encountered, how results were validated, and what the next steps will be.**
