@@ -195,8 +195,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a80b536f8526cd20",
+  "active": "874db1f04f244e4c",
   "lastOpenFiles": [
+    "Linda 实习计划.md",
     "tests/test_translate_changed_only.py",
     "tests",
     "孩子房间乱，父母到底该管什么？.md",
@@ -231,7 +232,6 @@
     "更新到 X.com/source-index.json",
     "更新到 X.com/tweets.js",
     "更新到 X.com/index.html",
-    "scripts/git-hooks/post-merge",
-    "scripts/git-hooks"
+    "scripts/git-hooks/post-merge"
   ]
 }
