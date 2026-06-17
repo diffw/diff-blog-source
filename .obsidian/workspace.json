@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "选择钱多，还是选择热爱？.md",
+                "file": "pages/about.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "选择钱多，还是选择热爱？"
+              "title": "about"
             }
           }
         ]
@@ -197,6 +197,9 @@
   },
   "active": "a80b536f8526cd20",
   "lastOpenFiles": [
+    "选择钱多，还是选择热爱？.md",
+    "孩子来美国留学，什么阶段送出来是最好的？.md",
+    "孩子来美国留学，什么阶段送出来是最好的？.en.md",
     "没有成为钢琴家的天分，为什么还要让孩子坚持学钢琴？.en.md",
     "没有成为钢琴家的天分，为什么还要让孩子坚持学钢琴？.md",
     "淫乱.en.md",
@@ -222,9 +225,6 @@
     "普通人想抓住 AI 机会，最先要改变哪些限制？.en.md",
     "OPC实践 & 不懂开发的独立开发者 - Week8.en.md",
     "OPC实践 & 不懂开发的独立开发者 - Week8.md",
-    "选择钱多，还是选择热爱？.md",
-    "选择钱多，还是选择热爱？.en.md",
-    "我的「强迫症」消费观.md",
     "更新到 X.com/routine/logs",
     "更新到 X.com/routine",
     "更新到 X.com/threads",
